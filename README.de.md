@@ -2,7 +2,13 @@
 
 *[English version → README.md](README.md)*
 
-**Website: [aicockpit.info/de](https://aicockpit.info/de/)** · Mac App Store: bald (CHF 3.50)
+<a href="https://apps.apple.com/app/id6802014255">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="img/mas-badge-de-dark.svg">
+    <img src="img/mas-badge-de-light.svg" alt="AI-Cockpit im Mac App Store laden" height="44">
+  </picture></a>
+
+**Website: [aicockpit.info/de](https://aicockpit.info/de/)** · CHF 3.50, einmalig
 
 Eine macOS-Menüleisten-App, die alle KI-Budgets an einem Ort zeigt: Auslastung
 des Claude-Abos, ChatGPT/Codex-Kontingente, OpenAI-API-Kosten,
