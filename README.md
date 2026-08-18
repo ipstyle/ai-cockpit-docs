@@ -2,7 +2,13 @@
 
 *[Deutsche Version → README.de.md](README.de.md)*
 
-**Website: [aicockpit.info](https://aicockpit.info)** · Mac App Store: coming soon (CHF 3.50)
+<a href="https://apps.apple.com/app/id6802014255">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="img/mas-badge-en-dark.svg">
+    <img src="img/mas-badge-en-light.svg" alt="Download AI-Cockpit on the Mac App Store" height="44">
+  </picture></a>
+
+**Website: [aicockpit.info](https://aicockpit.info)** · CHF 3.50, one-time
 
 A macOS menu bar app that keeps every AI budget you have in one place: Claude
 subscription usage, ChatGPT/Codex quotas, OpenAI API costs, Anthropic API
