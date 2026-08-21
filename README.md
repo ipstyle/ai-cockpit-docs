@@ -8,7 +8,7 @@
     <img src="img/mas-badge-en-light.svg" alt="Download AI-Cockpit on the Mac App Store" height="44">
   </picture></a>
 
-**Website: [aicockpit.info](https://aicockpit.info)** · CHF 3.50, one-time
+**Website: [aicockpit.info](https://aicockpit.info)** · CHF 3.50, one-time · [More apps](https://ipstyle.github.io)
 
 A macOS menu bar app that keeps every AI budget you have in one place: Claude
 subscription usage, ChatGPT/Codex quotas, OpenAI API costs, Anthropic API
