@@ -43,7 +43,7 @@ sichtbar:
 |---|---|
 | <img src="img/settings-accounts.jpg" alt="Einstellungen — Konten" width="420"> | <img src="img/settings-display.jpg" alt="Einstellungen — Anzeige" width="420"> |
 
-Über-Reiter mit Transparenzangaben (Verbindungen, lokal Gelesenes,
+Über-Seite mit Transparenzangaben (Verbindungen, lokal Gelesenes,
 Gespeichertes) und dem Prüfprotokoll:
 
 <img src="img/about.jpg" alt="Über" width="560">
@@ -114,7 +114,7 @@ Installiert — und dann? Zwei Minuten Einrichtung.
   lässt sich in den Einstellungen abschalten und löschen.
 - **Sicherheitsgeprüft:** vier dokumentierte Prüfdurchgänge gegen OWASP ASVS
   4.0, OWASP MASVS, Apple Secure Coding Guide, RFC 8252/7636 und die CWE
-  Top 25 — das vollständige Protokoll steht im Über-Reiter der App. Das ist
+  Top 25 — das vollständige Protokoll steht auf der Über-Seite der App. Das ist
   eine dokumentierte modellgestützte Prüfung, kein externes Audit.
 
 ## Feedback

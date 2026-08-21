@@ -41,7 +41,7 @@ Every card collapses to a one-line summary — warnings stay visible in colour:
 |---|---|
 | <img src="img/settings-accounts.jpg" alt="Settings — accounts" width="420"> | <img src="img/settings-display.jpg" alt="Settings — display" width="420"> |
 
-About tab with transparency notes (connections, local reads, storage) and the
+About page with transparency notes (connections, local reads, storage) and the
 security review record:
 
 <img src="img/about.jpg" alt="About" width="560">
@@ -107,7 +107,7 @@ Installed — and then? Two minutes of setup.
   disabled and deleted in Settings.
 - **Security-reviewed:** four documented review passes against OWASP ASVS 4.0,
   OWASP MASVS, the Apple Secure Coding Guide, RFC 8252/7636 and the CWE
-  Top 25 — the full record ships in the app's About tab. This is a documented
+  Top 25 — the full record ships in the app's About page. This is a documented
   model-assisted review, not an external audit.
 
 ## Feedback
