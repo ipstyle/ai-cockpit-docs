@@ -17,6 +17,11 @@ Mac, with their subagents, token shares and context windows.
 
 English by default, German selectable in Settings → Display. Requires macOS 14.
 
+There is also **AI Cockpit Mobile** — a free iPhone & iPad edition with an
+Apple Watch companion, currently in App Review. It shares this app's source
+(closed, like this one) and fetches its cards directly on the device; this
+page will link to it once Apple approves it.
+
 ## Screenshots
 
 The menu bar icon — brain, «AI-C» and both usage windows, in under 50 pt:

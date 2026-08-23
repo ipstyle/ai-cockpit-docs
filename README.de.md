@@ -19,6 +19,11 @@ Kontextfenstern.
 Standard Englisch, Deutsch wählbar unter Einstellungen → Anzeige.
 Braucht macOS 14. Die Bildschirmfotos zeigen die englische Oberfläche.
 
+Daneben gibt es **AI Cockpit Mobile** — eine gratis iPhone- und iPad-Fassung
+mit Apple-Watch-Begleiter, derzeit in Prüfung bei Apple. Sie teilt sich den
+Quellcode mit dieser App (geschlossen wie hier) und holt ihre Karten direkt
+auf dem Gerät; sobald Apple freigibt, steht hier der Link.
+
 ## Bildschirmfotos
 
 Das Menüleistensymbol — Gehirn, «AI-C» und beide Fenster, in unter 50 Punkten:
