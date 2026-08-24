@@ -19,6 +19,13 @@ Kontextfenstern.
 Standard Englisch, Deutsch wählbar unter Einstellungen → Anzeige.
 Braucht macOS 14. Die Bildschirmfotos zeigen die englische Oberfläche.
 
+Fassung 6.0 liegt bei Apple in Prüfung. Sie bringt zwei weitere
+Anbieterkarten — **OpenRouter** und **Grok** (xAI) —, lässt die Karten in
+jede gewünschte Reihenfolge ziehen, lässt wählen, welche Fenster in der
+Menüleiste stehen, und macht die helle Darstellung lesbar. Diese Seite
+beschreibt die Fassung, die aktuell im App Store liegt, und wird nachgeführt,
+sobald 6.0 freigegeben ist.
+
 Daneben gibt es **AI Cockpit Mobile** — eine gratis iPhone- und iPad-Fassung
 mit Apple-Watch-Begleiter, derzeit in Prüfung bei Apple. Sie teilt sich den
 Quellcode mit dieser App (geschlossen wie hier) und holt ihre Karten direkt

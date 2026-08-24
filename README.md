@@ -17,6 +17,12 @@ Mac, with their subagents, token shares and context windows.
 
 English by default, German selectable in Settings → Display. Requires macOS 14.
 
+Version 6.0 is with Apple for review. It adds two provider cards —
+**OpenRouter** and **Grok** (xAI) — lets you drag the cards into whatever
+order you like, lets you pick which windows the menu bar shows, and reworks
+the light theme for contrast. This page describes the version currently on
+the App Store and will be updated once 6.0 is approved.
+
 There is also **AI Cockpit Mobile** — a free iPhone & iPad edition with an
 Apple Watch companion, currently in App Review. It shares this app's source
 (closed, like this one) and fetches its cards directly on the device; this
