@@ -59,6 +59,10 @@ Gespeichertes) und dem Prüfprotokoll:
   7-Tage-Auslastung von Claude; alternative Stile (kritischster Wert, Ring,
   Restzeit) für volle Menüleisten. Die Symbolbreite wird gemessen, nicht
   geraten.
+- **Jede Karte trägt ihr eigenes Zeichen** — ein kleines farbiges Quadrat mit
+  dem Anfangsbuchstaben des Dienstes vor jedem Kartennamen: C für Claude,
+  G für ChatGPT, O für die OpenAI-API, A für die Anthropic-API, K für Kimi,
+  S für die Sitzungen. Buchstaben, nicht die Logos der Anbieter.
 - **Claude-Abo** — 5-Stunden- und 7-Tage-Fenster, modellbezogene Wochenfenster,
   Zurücksetzungszeiten, Sparklines und Hochrechnung («bei diesem Tempo voll um
   16:44»).

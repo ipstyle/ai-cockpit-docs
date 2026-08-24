@@ -56,6 +56,10 @@ security review record:
 - **Menu bar at a glance** — brain icon with your 5-hour and 7-day Claude
   usage; alternative styles (most critical value, ring, time remaining) for
   narrow menu bars. The icon width is measured, not guessed.
+- **Every card carries its own mark** — a small coloured square with the
+  service's initial in front of each card name: C for Claude, G for ChatGPT,
+  O for the OpenAI API, A for the Anthropic API, K for Kimi, S for sessions.
+  Letters, not the providers' logos.
 - **Claude subscription** — 5-hour and 7-day windows, per-model weekly windows,
   reset times, trend sparklines and a forecast («at this pace, full at 16:44»).
 - **ChatGPT/Codex** — live quotas; no extra sign-in, it reuses the one you
