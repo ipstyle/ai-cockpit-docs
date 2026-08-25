@@ -12,16 +12,13 @@
 
 A macOS menu bar app that keeps every AI budget you have in one place: Claude
 subscription usage, ChatGPT/Codex quotas, OpenAI API costs, Anthropic API
-costs, Kimi credit — plus the Claude Code sessions currently running on your
-Mac, with their subagents, token shares and context windows.
+costs, Kimi credit, OpenRouter credits and Grok (xAI) balance — plus the
+Claude Code sessions currently running on your Mac, with their subagents,
+token shares and context windows.
 
 English by default, German selectable in Settings → Display. Requires macOS 14.
 
-Version 6.0 is with Apple for review. It adds two provider cards —
-**OpenRouter** and **Grok** (xAI) — lets you drag the cards into whatever
-order you like, lets you pick which windows the menu bar shows, and reworks
-the light theme for contrast. This page describes the version currently on
-the App Store and will be updated once 6.0 is approved.
+This page describes **version 6.0**, the version currently on the App Store.
 
 There is also **AI Cockpit Mobile** — a free iPhone & iPad edition with an
 Apple Watch companion, currently in App Review. It shares this app's source
@@ -59,13 +56,22 @@ security review record:
 
 ## Features
 
-- **Menu bar at a glance** — brain icon with your 5-hour and 7-day Claude
-  usage; alternative styles (most critical value, ring, time remaining) for
+- **Menu bar at a glance** — brain icon with two usage figures of your
+  choosing; alternative styles (most critical value, ring, time remaining) for
   narrow menu bars. The icon width is measured, not guessed.
+- **You pick what the menu bar shows** — two fields in the settings choose the
+  first and the second figure, from every window the app currently holds: the
+  two Claude windows, each model-scoped weekly window, both ChatGPT/Codex
+  windows, Kimi's coding quota, OpenRouter's key limit, Grok's spending cap.
+  Only windows with data are offered, and a stored choice that goes stale
+  falls back to the first available window instead of leaving a blank.
+- **Cards go where you put them** — drag any card within its column or across
+  to the other one; the arrangement is remembered per column, and there is a
+  reset in the settings.
 - **Every card carries its own mark** — a small coloured square with the
   service's initial in front of each card name: C for Claude, G for ChatGPT,
-  O for the OpenAI API, A for the Anthropic API, K for Kimi, S for sessions.
-  Letters, not the providers' logos.
+  O for the OpenAI API, A for the Anthropic API, K for Kimi, R for OpenRouter,
+  X for Grok, S for sessions. Letters, not the providers' logos.
 - **Claude subscription** — 5-hour and 7-day windows, per-model weekly windows,
   reset times, trend sparklines and a forecast («at this pace, full at 16:44»).
 - **ChatGPT/Codex** — live quotas; no extra sign-in, it reuses the one you
@@ -76,6 +82,10 @@ security review record:
   once and the app subtracts the billed daily costs.
 - **Anthropic API** — costs next to the subscription, via admin key.
 - **Kimi** — available balance and coding-plan quota.
+- **OpenRouter** — credits, spend and the rate limit on your key. An ordinary
+  key from openrouter.ai under Keys is enough; no organisation, no admin
+  access.
+- **Grok (xAI)** — balance and spending cap from your xAI account.
 - **Active Claude Code sessions** — state, model, effort, billed tokens, share
   of the current 5-hour window, context window fill level, subagents.
 - **Notifications** — on threshold crossings, on forecasted exhaustion, when a
@@ -92,9 +102,10 @@ Installed — and then? Two minutes of setup.
    browser, nothing to copy over.
 2. **Add your API keys** — Settings → Accounts: OpenAI admin key
    (`sk-admin-…`) from platform.openai.com → Settings → Admin keys, Anthropic
-   admin key (`sk-ant-admin-…`) from console.anthropic.com, and/or a Kimi key
-   from platform.kimi.ai (or .com for China). Add only what you use — every
-   card is optional.
+   admin key (`sk-ant-admin-…`) from console.anthropic.com, a Kimi key
+   from platform.kimi.ai (or .com for China), an OpenRouter key from
+   openrouter.ai → Keys, and/or an xAI key for Grok. Add only what you use —
+   every card is optional.
 3. **ChatGPT — nothing to do:** works as soon as the ChatGPT app with Codex is
    installed and signed in.
 4. **See your sessions** — grant read-only access to `~/.claude` once when the
@@ -112,8 +123,9 @@ Installed — and then? Two minutes of setup.
 
 - **Connections go exclusively to:** `api.anthropic.com`, `claude.com` /
   `platform.claude.com` (OAuth sign-in), `api.openai.com`, `api.moonshot.ai` /
-  `api.moonshot.cn` / `api.kimi.com`. Redirects are never followed; there is
-  no telemetry, no analytics, no update phone-home.
+  `api.moonshot.cn` / `api.kimi.com`, `openrouter.ai` and
+  `management-api.x.ai`. Redirects are never followed; there is no telemetry,
+  no analytics, no update phone-home.
 - **Session contents are never transmitted.** Transcripts are read locally and
   only for display.
 - **Credentials** live exclusively in the macOS Keychain
@@ -135,5 +147,5 @@ Missing a provider? Want a metric the cockpit doesn't show yet?
 © 2026 Albert Frick (ipstyle). All rights reserved. This repository contains
 documentation and screenshots only; the application itself is proprietary.
 Claude is a trademark of Anthropic; ChatGPT and Codex of OpenAI; Kimi of
-Moonshot AI. AI-Cockpit is an independent tool and is not affiliated with any
-of these providers.
+Moonshot AI; Grok of xAI; OpenRouter of OpenRouter, Inc. AI-Cockpit is an
+independent tool and is not affiliated with any of these providers.
