@@ -22,6 +22,14 @@ Braucht macOS 14. Die Bildschirmfotos zeigen die englische Oberfläche.
 Diese Seite beschreibt **Fassung 6.0**, die aktuell im App Store erhältliche
 Fassung.
 
+**Fassung 6.1 liegt bei Apple in Prüfung.** Sie bringt ein zweites
+Claude-Konto — wer privat und geschäftlich getrennte Abos hat, konnte bisher
+nur eines hinterlegen, weil eine zweite Anmeldung die erste überschrieb. Das
+zweite bekommt eine eigene Karte und ein eigenes Zeichen, und beide lassen
+sich benennen. Dazu kommen ein Demomodus, ein Einrichtungsassistent beim
+ersten Start und ein «Alles zurücksetzen» in den Einstellungen. Sobald sie
+freigegeben ist, steht sie hier vollständig.
+
 Daneben gibt es **AI Cockpit Mobile** — eine gratis iPhone- und iPad-Fassung
 mit Apple-Watch-Begleiter, derzeit in Prüfung bei Apple. Sie teilt sich den
 Quellcode mit dieser App (geschlossen wie hier) und holt ihre Karten direkt

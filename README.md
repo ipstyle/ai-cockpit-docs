@@ -20,6 +20,13 @@ English by default, German selectable in Settings → Display. Requires macOS 14
 
 This page describes **version 6.0**, the version currently on the App Store.
 
+**Version 6.1 is with Apple for review.** It adds a second Claude account —
+if you keep personal and work subscriptions apart, you could only store one
+until now, because signing in a second time overwrote the first. The second
+one gets its own card and its own mark, and both can be named. It also brings
+a demo mode, a setup assistant on first launch and a «reset everything» in
+the settings. This page will describe it in full once it is released.
+
 There is also **AI Cockpit Mobile** — a free iPhone & iPad edition with an
 Apple Watch companion, currently in App Review. It shares this app's source
 (closed, like this one) and fetches its cards directly on the device; this
