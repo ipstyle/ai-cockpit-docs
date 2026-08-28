@@ -108,10 +108,15 @@ security review record:
 
 ## Quick start
 
-Installed — and then? Two minutes of setup.
+Installed — and then? **Since 6.1 the app asks you itself:** a four-step
+assistant opens on first launch — what it does, which services you use, the
+credentials for them, done. Skip works on every step, and everything below
+can be done later in the settings. Its first step also opens the demo mode,
+so you can look around before signing in to anything.
 
-1. **Sign in to Claude** — footer → «Sign in to Claude»: OAuth in your
-   browser, nothing to copy over.
+1. **Sign in to Claude** — the assistant offers it directly; later, the card
+   footer → «Sign in to Claude»: OAuth in your browser, nothing to copy
+   over.
 2. **Add your API keys** — Settings → Accounts: OpenAI admin key
    (`sk-admin-…`) from platform.openai.com → Settings → Admin keys, Anthropic
    admin key (`sk-ant-admin-…`) from console.anthropic.com, a Kimi key

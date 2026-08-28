@@ -113,10 +113,16 @@ Gespeichertes) und dem Prüfprotokoll:
 
 ## Schnellstart
 
-Installiert — und dann? Zwei Minuten Einrichtung.
+Installiert — und dann? **Seit 6.1 fragt die App von sich aus:** Beim ersten
+Start öffnet ein Assistent in vier Schritten — was sie tut, welche Dienste du
+nutzt, die Zugänge dazu, fertig. Überspringen geht in jedem Schritt, und
+alles Untenstehende lässt sich auch später in den Einstellungen nachholen.
+Sein erster Schritt öffnet ausserdem den Demomodus, damit man sich umsehen
+kann, bevor man sich irgendwo anmeldet.
 
-1. **Bei Claude anmelden** — Fusszeile → «Bei Claude anmelden»: OAuth im
-   Browser, nichts abzutippen.
+1. **Bei Claude anmelden** — der Assistent bietet es direkt an; später über
+   die Fusszeile der Karte → «Bei Claude anmelden»: OAuth im Browser, nichts
+   abzutippen.
 2. **API-Schlüssel eintragen** — Einstellungen → Konten: OpenAI-Admin-Schlüssel
    (`sk-admin-…`) von platform.openai.com → Settings → Admin keys,
    Anthropic-Admin-Schlüssel (`sk-ant-admin-…`) aus console.anthropic.com
