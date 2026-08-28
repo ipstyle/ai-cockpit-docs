@@ -19,16 +19,17 @@ deinem Mac, mit Subagenten, Token-Anteilen und Kontextfenstern.
 Standard Englisch, Deutsch wählbar unter Einstellungen → Anzeige.
 Braucht macOS 14. Die Bildschirmfotos zeigen die englische Oberfläche.
 
-Diese Seite beschreibt **Fassung 6.0**, die aktuell im App Store erhältliche
-Fassung.
+Diese Seite beschreibt **Fassung 6.1**, seit dem 27. August 2026 im App
+Store erhältlich.
 
-**Fassung 6.1 liegt bei Apple in Prüfung.** Sie bringt ein zweites
-Claude-Konto — wer privat und geschäftlich getrennte Abos hat, konnte bisher
-nur eines hinterlegen, weil eine zweite Anmeldung die erste überschrieb. Das
-zweite bekommt eine eigene Karte und ein eigenes Zeichen, und beide lassen
-sich benennen. Dazu kommen ein Demomodus, ein Einrichtungsassistent beim
-ersten Start und ein «Alles zurücksetzen» in den Einstellungen. Sobald sie
-freigegeben ist, steht sie hier vollständig.
+**Neu in 6.1: ein zweites Claude-Konto.** Wer privat und geschäftlich
+getrennte Abos hat, konnte bisher nur eines hinterlegen, weil eine zweite
+Anmeldung die erste überschrieb. Das zweite bekommt eine eigene Karte, ein
+eigenes Zeichen («C2») und eine eigene Farbe, und **beide lassen sich
+benennen** — der Name steht auf der Karte, in der Menüleiste und in den
+Mitteilungen. Ohne zweites Konto ändert sich nichts. Dazu kommen ein
+Demomodus, ein Einrichtungsassistent beim ersten Start und ein «Alles
+zurücksetzen» in den Einstellungen.
 
 Daneben gibt es **AI Cockpit Mobile** — eine gratis iPhone- und iPad-Fassung
 mit Apple-Watch-Begleiter, derzeit in Prüfung bei Apple. Sie teilt sich den
@@ -81,12 +82,13 @@ Gespeichertes) und dem Prüfprotokoll:
   gemerkt, und in den Einstellungen gibt es ein Zurücksetzen.
 - **Jede Karte trägt ihr eigenes Zeichen** — ein kleines farbiges Quadrat mit
   dem Anfangsbuchstaben des Dienstes vor jedem Kartennamen: C für Claude,
-  G für ChatGPT, O für die OpenAI-API, A für die Anthropic-API, K für Kimi,
-  R für OpenRouter, X für Grok, S für die Sitzungen. Buchstaben, nicht die
-  Logos der Anbieter.
+  C2 für ein zweites Claude-Konto, G für ChatGPT, O für die OpenAI-API,
+  A für die Anthropic-API, K für Kimi, R für OpenRouter, X für Grok,
+  S für die Sitzungen. Buchstaben, nicht die Logos der Anbieter.
 - **Claude-Abo** — 5-Stunden- und 7-Tage-Fenster, modellbezogene Wochenfenster,
   Zurücksetzungszeiten, Sparklines und Hochrechnung («bei diesem Tempo voll um
-  16:44»).
+  16:44»). **Auf Wunsch zweimal:** Ein zweites Konto bekommt eine eigene Karte
+  mit eigenem Namen, eigener Farbe und eigenen Zahlen.
 - **ChatGPT/Codex** — Kontingente live; keine eigene Anmeldung, die bestehende
   wird genutzt.
 - **OpenAI-API** — Kosten heute / Monat / gesamt, je Modell und je Projekt,
