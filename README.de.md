@@ -39,10 +39,10 @@ Mitteilungen. Ohne zweites Konto ändert sich nichts. Dazu ein Demomodus, ein
 Einrichtungsassistent beim ersten Start und ein «Alles zurücksetzen» in den
 Einstellungen.
 
-Daneben gibt es **AI Cockpit Mobile** — eine gratis iPhone- und iPad-Fassung
-mit Apple-Watch-Begleiter, derzeit in Prüfung bei Apple. Sie teilt sich den
-Quellcode mit dieser App (geschlossen wie hier) und holt ihre Karten direkt
-auf dem Gerät; sobald Apple freigibt, steht hier der Link.
+Daneben gibt es **[AI Cockpit Mobile](https://apps.apple.com/app/id6803496344)** — eine iPhone- und
+iPad-Fassung für $3.49 mit Apple-Watch-Begleiter, seit dem 29. August 2026 im
+App Store. Sie teilt sich den Quellcode mit dieser App (geschlossen wie hier)
+und holt ihre Karten direkt auf dem Gerät.
 
 ## Bildschirmfotos
 
