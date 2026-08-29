@@ -40,7 +40,7 @@ Einrichtungsassistent beim ersten Start und ein «Alles zurücksetzen» in den
 Einstellungen.
 
 Daneben gibt es **[AI Cockpit Mobile](https://apps.apple.com/app/id6803496344)** — eine iPhone- und
-iPad-Fassung für CHF 3.00/$3.49 mit Apple-Watch-Begleiter, seit dem 29. August 2026 im
+iPad-Fassung für CHF 3.50/$2.99 mit Apple-Watch-Begleiter, seit dem 29. August 2026 im
 App Store. Sie teilt sich den Quellcode mit dieser App (geschlossen wie hier)
 und holt ihre Karten direkt auf dem Gerät.
 
