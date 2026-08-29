@@ -8,7 +8,7 @@
     <img src="img/mas-badge-de-light.svg" alt="AI-Cockpit im Mac App Store laden" height="44">
   </picture></a>
 
-**Website: [aicockpit.info/de](https://aicockpit.info/de/)** · CHF 3.50, einmalig · [Weitere Apps](https://ipstyle.github.io)
+**Website: [aicockpit.info/de](https://aicockpit.info/de/)** · CHF 4.00 / $3.49, einmalig · [Weitere Apps](https://ipstyle.github.io)
 
 Eine macOS-Menüleisten-App, die alle KI-Budgets an einem Ort zeigt: Auslastung
 des Claude-Abos, ChatGPT/Codex-Kontingente, OpenAI-API-Kosten,
@@ -40,7 +40,7 @@ Einrichtungsassistent beim ersten Start und ein «Alles zurücksetzen» in den
 Einstellungen.
 
 Daneben gibt es **[AI Cockpit Mobile](https://apps.apple.com/app/id6803496344)** — eine iPhone- und
-iPad-Fassung für CHF 3.50/$2.99 mit Apple-Watch-Begleiter, seit dem 29. August 2026 im
+iPad-Fassung für CHF 4.00/$3.49 mit Apple-Watch-Begleiter, seit dem 29. August 2026 im
 App Store. Sie teilt sich den Quellcode mit dieser App (geschlossen wie hier)
 und holt ihre Karten direkt auf dem Gerät.
 

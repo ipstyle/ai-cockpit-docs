@@ -8,7 +8,7 @@
     <img src="img/mas-badge-en-light.svg" alt="Download AI-Cockpit on the Mac App Store" height="44">
   </picture></a>
 
-**Website: [aicockpit.info](https://aicockpit.info)** · CHF 3.50, one-time · [More apps](https://ipstyle.github.io)
+**Website: [aicockpit.info](https://aicockpit.info)** · CHF 4.00 / $3.49, one-time · [More apps](https://ipstyle.github.io)
 
 A macOS menu bar app that keeps every AI budget you have in one place: Claude
 subscription usage, ChatGPT/Codex quotas, OpenAI API costs, Anthropic API
@@ -36,7 +36,7 @@ name appears on the card, in the menu bar and in notifications. Nothing
 changes if you do not add one. A demo mode, a setup assistant on first launch
 and a «reset everything» in the settings round out the picture.
 
-There is also **[AI Cockpit Mobile](https://apps.apple.com/app/id6803496344)** — a CHF 3.50/$2.99 iPhone & iPad
+There is also **[AI Cockpit Mobile](https://apps.apple.com/app/id6803496344)** — a CHF 4.00/$3.49 iPhone & iPad
 edition with an Apple Watch companion, on the App Store since 29 August 2026.
 It shares this app's source (closed, like this one) and fetches its cards
 directly on the device.
