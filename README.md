@@ -18,16 +18,23 @@ token shares and context windows.
 
 English by default, German selectable in Settings → Display. Requires macOS 14.
 
-This page describes **version 6.1**, released on the App Store on
-27 August 2026.
+This page describes **version 6.3**, released on the App Store on
+29 August 2026.
 
-**New in 6.1: a second Claude account.** If you keep personal and work
-subscriptions apart, you could only store one until now, because signing in a
-second time overwrote the first. The second one gets its own card, its own
-mark («C2») and its own colour, and **both can be named** — the name appears
-on the card, in the menu bar and in notifications. Nothing changes if you do
-not add one. 6.1 also brings a demo mode, a setup assistant on first launch
-and a «reset everything» in the settings.
+**New in 6.3: one line for what AI costs you this month.** Enter your
+subscription prices once (Settings → Display → Subscription costs) and the
+cockpit adds your live API spend on top — Kimi and Grok stay out of the sum,
+since both only report a balance, not a monthly spend. Two equal links sit in
+Settings → About: send feedback, or rate the app; and the app may now ask for
+a rating itself, rarely, only after days of successful use.
+
+**Also in this app: a second Claude account**, since 6.1. If you keep personal
+and work subscriptions apart, you could only store one before, because
+signing in a second time overwrote the first. The second one gets its own
+card, its own mark («C2») and its own colour, and **both can be named** — the
+name appears on the card, in the menu bar and in notifications. Nothing
+changes if you do not add one. A demo mode, a setup assistant on first launch
+and a «reset everything» in the settings round out the picture.
 
 There is also **AI Cockpit Mobile** — a free iPhone & iPad edition with an
 Apple Watch companion, currently in App Review. It shares this app's source

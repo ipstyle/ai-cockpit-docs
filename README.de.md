@@ -19,17 +19,25 @@ deinem Mac, mit Subagenten, Token-Anteilen und Kontextfenstern.
 Standard Englisch, Deutsch wählbar unter Einstellungen → Anzeige.
 Braucht macOS 14. Die Bildschirmfotos zeigen die englische Oberfläche.
 
-Diese Seite beschreibt **Fassung 6.1**, seit dem 27. August 2026 im App
+Diese Seite beschreibt **Fassung 6.3**, seit dem 29. August 2026 im App
 Store erhältlich.
 
-**Neu in 6.1: ein zweites Claude-Konto.** Wer privat und geschäftlich
-getrennte Abos hat, konnte bisher nur eines hinterlegen, weil eine zweite
-Anmeldung die erste überschrieb. Das zweite bekommt eine eigene Karte, ein
-eigenes Zeichen («C2») und eine eigene Farbe, und **beide lassen sich
-benennen** — der Name steht auf der Karte, in der Menüleiste und in den
-Mitteilungen. Ohne zweites Konto ändert sich nichts. Dazu kommen ein
-Demomodus, ein Einrichtungsassistent beim ersten Start und ein «Alles
-zurücksetzen» in den Einstellungen.
+**Neu in 6.3: eine Zeile für das, was KI diesen Monat kostet.** Abo-Preise
+einmal eintragen (Einstellungen → Anzeige → Abokosten), und das Cockpit legt
+die laufenden API-Kosten obendrauf — Kimi und Grok bleiben draussen, weil
+beide nur einen Kontostand melden, keinen Monatsverbrauch. Zwei gleichrangige
+Links unter Einstellungen → Über: Feedback senden oder die App bewerten; und
+die App darf jetzt selbst um eine Bewertung bitten, selten, erst nach Tagen
+erfolgreicher Nutzung.
+
+**Ebenfalls an Bord: ein zweites Claude-Konto**, seit 6.1. Wer privat und
+geschäftlich getrennte Abos hat, konnte bisher nur eines hinterlegen, weil
+eine zweite Anmeldung die erste überschrieb. Das zweite bekommt eine eigene
+Karte, ein eigenes Zeichen («C2») und eine eigene Farbe, und **beide lassen
+sich benennen** — der Name steht auf der Karte, in der Menüleiste und in den
+Mitteilungen. Ohne zweites Konto ändert sich nichts. Dazu ein Demomodus, ein
+Einrichtungsassistent beim ersten Start und ein «Alles zurücksetzen» in den
+Einstellungen.
 
 Daneben gibt es **AI Cockpit Mobile** — eine gratis iPhone- und iPad-Fassung
 mit Apple-Watch-Begleiter, derzeit in Prüfung bei Apple. Sie teilt sich den
