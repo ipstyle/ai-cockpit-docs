@@ -36,7 +36,7 @@ name appears on the card, in the menu bar and in notifications. Nothing
 changes if you do not add one. A demo mode, a setup assistant on first launch
 and a «reset everything» in the settings round out the picture.
 
-There is also **[AI Cockpit Mobile](https://apps.apple.com/app/id6803496344)** — a $3.49 iPhone & iPad
+There is also **[AI Cockpit Mobile](https://apps.apple.com/app/id6803496344)** — a CHF 3.00/$3.49 iPhone & iPad
 edition with an Apple Watch companion, on the App Store since 29 August 2026.
 It shares this app's source (closed, like this one) and fetches its cards
 directly on the device.
