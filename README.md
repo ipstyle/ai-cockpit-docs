@@ -21,7 +21,7 @@ English by default, German selectable in Settings → Display. Requires macOS 14
 This page describes **version 6.3**, released on the App Store on
 29 August 2026.
 
-**Uploaded, not yet submitted: 6.4.** An eighth provider, **GitHub
+**In App Store review: 6.4.** An eighth provider, **GitHub
 Copilot**, on both this app and AI Cockpit Mobile. It only reports figures for
 a personally paid Copilot plan — GitHub exposes usage for company- or
 organization-managed seats at the organization level only, so those accounts
@@ -115,7 +115,7 @@ security review record:
   key from openrouter.ai under Keys is enough; no organisation, no admin
   access.
 - **Grok (xAI)** — balance and spending cap from your xAI account.
-- **GitHub Copilot** *(uploaded in 6.4, not yet submitted)* — premium
+- **GitHub Copilot** *(coming with 6.4, currently in App Store review)* — premium
   request usage from a personally paid plan; a company- or
   organization-managed seat reports only at the organization level, so its
   card stays empty.

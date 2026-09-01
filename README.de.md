@@ -22,7 +22,7 @@ Braucht macOS 14. Die Bildschirmfotos zeigen die englische Oberfläche.
 Diese Seite beschreibt **Fassung 6.3**, seit dem 29. August 2026 im App
 Store erhältlich.
 
-**Hochgeladen, noch nicht eingereicht: 6.4.** Ein achter Anbieter,
+**Bei Apple in der Prüfung: 6.4.** Ein achter Anbieter,
 **GitHub Copilot**, sowohl in dieser App als auch in AI Cockpit Mobile. Er
 meldet nur Zahlen bei einem privat bezahlten Copilot-Abo — bei firmen- oder
 organisationsverwalteten Sitzen gibt GitHub die Nutzung nur auf
@@ -123,7 +123,7 @@ Gespeichertes) und dem Prüfprotokoll:
   gewöhnliche Schlüssel aus openrouter.ai unter Keys genügt — anders als bei
   OpenAI und Anthropic braucht es keine Organisation und keinen Admin-Zugang.
 - **Grok (xAI)** — Guthaben und Ausgabendeckel deines xAI-Kontos.
-- **GitHub Copilot** *(hochgeladen in 6.4, noch nicht eingereicht)* — Premium-Anfragen aus einem privat bezahlten Abo; ein
+- **GitHub Copilot** *(kommt mit 6.4, liegt bei Apple in der Prüfung)* — Premium-Anfragen aus einem privat bezahlten Abo; ein
   firmen- oder organisationsverwalteter Sitz meldet nur auf
   Organisationsebene, seine Karte bleibt dann leer.
 - **Aktive Claude-Code-Sitzungen** — Zustand, Modell, Aufwand, verrechnete
