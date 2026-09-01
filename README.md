@@ -8,7 +8,7 @@
     <img src="img/mas-badge-en-light.svg" alt="Download AI-Cockpit on the Mac App Store" height="44">
   </picture></a>
 
-**Website: [aicockpit.info](https://aicockpit.info)** · CHF 4.00 / $3.49, one-time · [More apps](https://ipstyle.github.io)
+**Website: [aicockpit.info](https://aicockpit.info)** · Free · [More apps](https://ipstyle.github.io)
 
 A macOS menu bar app that keeps every AI budget you have in one place: Claude
 subscription usage, ChatGPT/Codex quotas, OpenAI API costs, Anthropic API
@@ -21,8 +21,15 @@ English by default, German selectable in Settings → Display. Requires macOS 14
 This page describes **version 6.3**, released on the App Store on
 29 August 2026.
 
+**Free since 1 September 2026.** AI-Cockpit no longer costs anything. In place
+of the price sits a voluntary tip — Espresso, Cappuccino, Znacht — as an
+in-app purchase under Settings → About; it does not unlock anything and
+changes nothing about the app. On the Mac it arrives with 6.5; it is already
+live in AI Cockpit Mobile.
+
 **In App Store review: 6.5.** An eighth provider, **GitHub
-Copilot**, on both this app and AI Cockpit Mobile. It only reports figures for
+Copilot** — already live in AI Cockpit Mobile since version 2.5, released
+1 September 2026, and coming to this app with 6.5. It only reports figures for
 a personally paid Copilot plan — GitHub exposes usage for company- or
 organization-managed seats at the organization level only, so those accounts
 show nothing on this card. ChatGPT figures switch to a **live fetch** after a
@@ -46,10 +53,10 @@ name appears on the card, in the menu bar and in notifications. Nothing
 changes if you do not add one. A demo mode, a setup assistant on first launch
 and a «reset everything» in the settings round out the picture.
 
-There is also **[AI Cockpit Mobile](https://apps.apple.com/app/id6803496344)** — a CHF 4.00/$3.49 iPhone & iPad
-edition with an Apple Watch companion, on the App Store since 29 August 2026.
-It shares this app's source (closed, like this one) and fetches its cards
-directly on the device.
+There is also **[AI Cockpit Mobile](https://apps.apple.com/app/id6803496344)** — a free iPhone & iPad
+edition with an Apple Watch companion, on the App Store since 29 August 2026,
+now at **version 2.5** (released 1 September 2026). It shares this app's
+source (closed, like this one) and fetches its cards directly on the device.
 
 ## Screenshots
 

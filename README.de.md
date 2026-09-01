@@ -8,7 +8,7 @@
     <img src="img/mas-badge-de-light.svg" alt="AI-Cockpit im Mac App Store laden" height="44">
   </picture></a>
 
-**Website: [aicockpit.info/de](https://aicockpit.info/de/)** · CHF 4.00 / $3.49, einmalig · [Weitere Apps](https://ipstyle.github.io)
+**Website: [aicockpit.info/de](https://aicockpit.info/de/)** · Gratis · [Weitere Apps](https://ipstyle.github.io)
 
 Eine macOS-Menüleisten-App, die alle KI-Budgets an einem Ort zeigt: Auslastung
 des Claude-Abos, ChatGPT/Codex-Kontingente, OpenAI-API-Kosten,
@@ -22,8 +22,15 @@ Braucht macOS 14. Die Bildschirmfotos zeigen die englische Oberfläche.
 Diese Seite beschreibt **Fassung 6.3**, seit dem 29. August 2026 im App
 Store erhältlich.
 
+**Gratis seit 1. September 2026.** AI-Cockpit kostet nichts mehr. An die
+Stelle des Preises tritt ein freiwilliges Trinkgeld — Espresso, Cappuccino,
+Znacht — als In-App-Kauf unter Einstellungen → Über; es schaltet nichts frei
+und ändert nichts an der App. Auf dem Mac kommt es mit 6.5, in AI Cockpit
+Mobile ist es bereits da.
+
 **Bei Apple in der Prüfung: 6.5.** Ein achter Anbieter,
-**GitHub Copilot**, sowohl in dieser App als auch in AI Cockpit Mobile. Er
+**GitHub Copilot** — in AI Cockpit Mobile bereits seit Fassung 2.5 live,
+freigegeben am 1. September 2026, für diese App kommt er mit 6.5. Er
 meldet nur Zahlen bei einem privat bezahlten Copilot-Abo — bei firmen- oder
 organisationsverwalteten Sitzen gibt GitHub die Nutzung nur auf
 Organisationsebene heraus, diese Konten zeigen auf der Karte nichts.
@@ -51,9 +58,10 @@ Mitteilungen. Ohne zweites Konto ändert sich nichts. Dazu ein Demomodus, ein
 Einrichtungsassistent beim ersten Start und ein «Alles zurücksetzen» in den
 Einstellungen.
 
-Daneben gibt es **[AI Cockpit Mobile](https://apps.apple.com/app/id6803496344)** — eine iPhone- und
-iPad-Fassung für CHF 4.00/$3.49 mit Apple-Watch-Begleiter, seit dem 29. August 2026 im
-App Store. Sie teilt sich den Quellcode mit dieser App (geschlossen wie hier)
+Daneben gibt es **[AI Cockpit Mobile](https://apps.apple.com/app/id6803496344)** — eine gratis iPhone- und
+iPad-Fassung mit Apple-Watch-Begleiter, seit dem 29. August 2026 im
+App Store, inzwischen bei **Fassung 2.5** (freigegeben am 1. September 2026).
+Sie teilt sich den Quellcode mit dieser App (geschlossen wie hier)
 und holt ihre Karten direkt auf dem Gerät.
 
 ## Bildschirmfotos
