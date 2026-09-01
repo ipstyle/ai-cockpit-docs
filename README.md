@@ -12,14 +12,24 @@
 
 A macOS menu bar app that keeps every AI budget you have in one place: Claude
 subscription usage, ChatGPT/Codex quotas, OpenAI API costs, Anthropic API
-costs, Kimi credit, OpenRouter credits and Grok (xAI) balance — plus the
-Claude Code sessions currently running on your Mac, with their subagents,
-token shares and context windows.
+costs, Kimi credit, OpenRouter credits, Grok (xAI) balance and GitHub Copilot
+usage — plus the Claude Code sessions currently running on your Mac, with
+their subagents, token shares and context windows.
 
 English by default, German selectable in Settings → Display. Requires macOS 14.
 
 This page describes **version 6.3**, released on the App Store on
 29 August 2026.
+
+**Uploaded, not yet submitted: 6.4.** An eighth provider, **GitHub
+Copilot**, on both this app and AI Cockpit Mobile. It only reports figures for
+a personally paid Copilot plan — GitHub exposes usage for company- or
+organization-managed seats at the organization level only, so those accounts
+show nothing on this card. ChatGPT figures switch to a **live fetch** after a
+one-time sign-in instead of only reading locally logged Codex sessions, plus a
+balance figure on the ChatGPT card, an outage indicator per provider, desktop
+widgets, a compact menu bar capsule with up to four values, a segment switcher
+above the cards and a freely arranged key-figures bar.
 
 **New in 6.3: one line for what AI costs you this month.** Enter your
 subscription prices once (Settings → Display → Subscription costs) and the
@@ -87,8 +97,8 @@ security review record:
 - **Every card carries its own mark** — a small coloured square with the
   service's initial in front of each card name: C for Claude, C2 for a second
   Claude account, G for ChatGPT, O for the OpenAI API, A for the Anthropic API,
-  K for Kimi, R for OpenRouter, X for Grok, S for sessions. Letters, not the
-  providers' logos.
+  K for Kimi, R for OpenRouter, X for Grok, GC for GitHub Copilot, S for
+  sessions. Letters, not the providers' logos.
 - **Claude subscription** — 5-hour and 7-day windows, per-model weekly windows,
   reset times, trend sparklines and a forecast («at this pace, full at 16:44»).
   **Twice over if you want:** a second account sits on its own card, with its
@@ -105,6 +115,10 @@ security review record:
   key from openrouter.ai under Keys is enough; no organisation, no admin
   access.
 - **Grok (xAI)** — balance and spending cap from your xAI account.
+- **GitHub Copilot** *(uploaded in 6.4, not yet submitted)* — premium
+  request usage from a personally paid plan; a company- or
+  organization-managed seat reports only at the organization level, so its
+  card stays empty.
 - **Active Claude Code sessions** — state, model, effort, billed tokens, share
   of the current 5-hour window, context window fill level, subagents.
 - **Notifications** — on threshold crossings, on forecasted exhaustion, when a

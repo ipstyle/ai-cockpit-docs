@@ -12,15 +12,27 @@
 
 Eine macOS-Menüleisten-App, die alle KI-Budgets an einem Ort zeigt: Auslastung
 des Claude-Abos, ChatGPT/Codex-Kontingente, OpenAI-API-Kosten,
-Anthropic-API-Kosten, Kimi-Guthaben, OpenRouter-Guthaben und
-Grok-Guthaben (xAI) — dazu die gerade laufenden Claude-Code-Sitzungen auf
-deinem Mac, mit Subagenten, Token-Anteilen und Kontextfenstern.
+Anthropic-API-Kosten, Kimi-Guthaben, OpenRouter-Guthaben, Grok-Guthaben (xAI)
+und GitHub-Copilot-Nutzung — dazu die gerade laufenden Claude-Code-Sitzungen
+auf deinem Mac, mit Subagenten, Token-Anteilen und Kontextfenstern.
 
 Standard Englisch, Deutsch wählbar unter Einstellungen → Anzeige.
 Braucht macOS 14. Die Bildschirmfotos zeigen die englische Oberfläche.
 
 Diese Seite beschreibt **Fassung 6.3**, seit dem 29. August 2026 im App
 Store erhältlich.
+
+**Hochgeladen, noch nicht eingereicht: 6.4.** Ein achter Anbieter,
+**GitHub Copilot**, sowohl in dieser App als auch in AI Cockpit Mobile. Er
+meldet nur Zahlen bei einem privat bezahlten Copilot-Abo — bei firmen- oder
+organisationsverwalteten Sitzen gibt GitHub die Nutzung nur auf
+Organisationsebene heraus, diese Konten zeigen auf der Karte nichts.
+ChatGPT-Zahlen wechseln auf einen **Live-Abruf** nach einmaliger Anmeldung
+statt nur lokal protokollierte Codex-Sitzungen zu lesen, dazu ein
+Guthaben-Wert auf der ChatGPT-Karte, eine Störungsanzeige je Anbieter,
+Widgets für den Schreibtisch, eine kompakte Menüleisten-Kapsel mit bis zu vier
+Werten, ein Segmentwähler über den Karten und eine frei zusammenstellbare
+Kennzahlenleiste.
 
 **Neu in 6.3: eine Zeile für das, was KI diesen Monat kostet.** Abo-Preise
 einmal eintragen (Einstellungen → Anzeige → Abokosten), und das Cockpit legt
@@ -92,7 +104,8 @@ Gespeichertes) und dem Prüfprotokoll:
   dem Anfangsbuchstaben des Dienstes vor jedem Kartennamen: C für Claude,
   C2 für ein zweites Claude-Konto, G für ChatGPT, O für die OpenAI-API,
   A für die Anthropic-API, K für Kimi, R für OpenRouter, X für Grok,
-  S für die Sitzungen. Buchstaben, nicht die Logos der Anbieter.
+  GC für GitHub Copilot, S für die Sitzungen. Buchstaben, nicht die Logos
+  der Anbieter.
 - **Claude-Abo** — 5-Stunden- und 7-Tage-Fenster, modellbezogene Wochenfenster,
   Zurücksetzungszeiten, Sparklines und Hochrechnung («bei diesem Tempo voll um
   16:44»). **Auf Wunsch zweimal:** Ein zweites Konto bekommt eine eigene Karte
@@ -110,6 +123,9 @@ Gespeichertes) und dem Prüfprotokoll:
   gewöhnliche Schlüssel aus openrouter.ai unter Keys genügt — anders als bei
   OpenAI und Anthropic braucht es keine Organisation und keinen Admin-Zugang.
 - **Grok (xAI)** — Guthaben und Ausgabendeckel deines xAI-Kontos.
+- **GitHub Copilot** *(hochgeladen in 6.4, noch nicht eingereicht)* — Premium-Anfragen aus einem privat bezahlten Abo; ein
+  firmen- oder organisationsverwalteter Sitz meldet nur auf
+  Organisationsebene, seine Karte bleibt dann leer.
 - **Aktive Claude-Code-Sitzungen** — Zustand, Modell, Aufwand, verrechnete
   Token, Anteil am laufenden 5-Stunden-Fenster, Füllstand des Kontextfensters,
   Subagenten.
