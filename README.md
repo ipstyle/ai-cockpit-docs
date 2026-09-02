@@ -18,25 +18,25 @@ their subagents, token shares and context windows.
 
 English by default, German selectable in Settings → Display. Requires macOS 14.
 
-This page describes **version 6.3**, released on the App Store on
+This page describes **version 6.5**, released on the App Store on
 29 August 2026.
 
 **Free since 1 September 2026.** AI-Cockpit no longer costs anything. In place
-of the price sits a voluntary tip — Espresso, Cappuccino, Znacht — as an
+of the price sits a voluntary tip — Espresso, Cappuccino or Dinner — as an
 in-app purchase under Settings → About; it does not unlock anything and
 changes nothing about the app. On the Mac it arrives with 6.5; it is already
 live in AI Cockpit Mobile.
 
-**In App Store review: 6.5.** An eighth provider, **GitHub
-Copilot** — already live in AI Cockpit Mobile since version 2.5, released
-1 September 2026, and coming to this app with 6.5. It only reports figures for
-a personally paid Copilot plan — GitHub exposes usage for company- or
+**New in 6.5:** An eighth provider, **GitHub Copilot** — it reports figures
+for a personally paid Copilot plan; GitHub exposes usage for company- or
 organization-managed seats at the organization level only, so those accounts
-show nothing on this card. ChatGPT figures switch to a **live fetch** after a
-one-time sign-in instead of only reading locally logged Codex sessions, plus a
-balance figure on the ChatGPT card, an outage indicator per provider, desktop
-widgets, a compact menu bar capsule with up to four values, a segment switcher
-above the cards and a freely arranged key-figures bar.
+show nothing on this card. ChatGPT figures now come from a **live fetch**
+after a one-time sign-in instead of only reading locally logged Codex
+sessions, plus a balance figure on the ChatGPT card. Also new: an outage
+indicator per provider, desktop widgets, a compact menu bar capsule with up
+to four values, a segment switcher above the cards, a freely arranged
+key-figures bar, and an optional tip (Espresso, Cappuccino or Dinner) under
+Settings → About.
 
 **New in 6.3: one line for what AI costs you this month.** Enter your
 subscription prices once (Settings → Display → Subscription costs) and the
@@ -122,10 +122,9 @@ security review record:
   key from openrouter.ai under Keys is enough; no organisation, no admin
   access.
 - **Grok (xAI)** — balance and spending cap from your xAI account.
-- **GitHub Copilot** *(coming with 6.5, currently in App Store review)* — premium
-  request usage from a personally paid plan; a company- or
-  organization-managed seat reports only at the organization level, so its
-  card stays empty.
+- **GitHub Copilot** — premium request usage from a personally paid plan; a
+  company- or organization-managed seat reports only at the organization
+  level, so its card stays empty.
 - **Active Claude Code sessions** — state, model, effort, billed tokens, share
   of the current 5-hour window, context window fill level, subagents.
 - **Notifications** — on threshold crossings, on forecasted exhaustion, when a
@@ -167,9 +166,11 @@ so you can look around before signing in to anything.
 ## Privacy & security
 
 - **Connections go exclusively to:** `api.anthropic.com`, `claude.com` /
-  `platform.claude.com` (OAuth sign-in), `api.openai.com`, `api.moonshot.ai` /
-  `api.moonshot.cn` / `api.kimi.com`, `openrouter.ai` and
-  `management-api.x.ai`. Redirects are never followed; there is no telemetry,
+  `platform.claude.com` (OAuth sign-in), `api.openai.com`, `auth.openai.com`,
+  `chatgpt.com`, `api.moonshot.ai` / `api.moonshot.cn` / `api.kimi.com`,
+  `openrouter.ai`, `management-api.x.ai`, `api.github.com` and the status
+  pages `status.claude.com`, `status.openai.com`, `status.moonshot.cn`.
+  Redirects are never followed; there is no telemetry,
   no analytics, no update phone-home.
 - **Session contents are never transmitted.** Transcripts are read locally and
   only for display.

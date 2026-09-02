@@ -19,7 +19,7 @@ auf deinem Mac, mit Subagenten, Token-Anteilen und Kontextfenstern.
 Standard Englisch, Deutsch wählbar unter Einstellungen → Anzeige.
 Braucht macOS 14. Die Bildschirmfotos zeigen die englische Oberfläche.
 
-Diese Seite beschreibt **Fassung 6.3**, seit dem 29. August 2026 im App
+Diese Seite beschreibt **Fassung 6.5**, seit dem 29. August 2026 im App
 Store erhältlich.
 
 **Gratis seit 1. September 2026.** AI-Cockpit kostet nichts mehr. An die
@@ -28,18 +28,17 @@ Znacht — als In-App-Kauf unter Einstellungen → Über; es schaltet nichts fre
 und ändert nichts an der App. Auf dem Mac kommt es mit 6.5, in AI Cockpit
 Mobile ist es bereits da.
 
-**Bei Apple in der Prüfung: 6.5.** Ein achter Anbieter,
-**GitHub Copilot** — in AI Cockpit Mobile bereits seit Fassung 2.5 live,
-freigegeben am 1. September 2026, für diese App kommt er mit 6.5. Er
-meldet nur Zahlen bei einem privat bezahlten Copilot-Abo — bei firmen- oder
+**Neu in 6.5:** Ein achter Anbieter, **GitHub Copilot** — er meldet nur
+Zahlen bei einem privat bezahlten Copilot-Abo; bei firmen- oder
 organisationsverwalteten Sitzen gibt GitHub die Nutzung nur auf
 Organisationsebene heraus, diese Konten zeigen auf der Karte nichts.
-ChatGPT-Zahlen wechseln auf einen **Live-Abruf** nach einmaliger Anmeldung
+ChatGPT-Zahlen kommen jetzt per **Live-Abruf** nach einmaliger Anmeldung
 statt nur lokal protokollierte Codex-Sitzungen zu lesen, dazu ein
-Guthaben-Wert auf der ChatGPT-Karte, eine Störungsanzeige je Anbieter,
-Widgets für den Schreibtisch, eine kompakte Menüleisten-Kapsel mit bis zu vier
-Werten, ein Segmentwähler über den Karten und eine frei zusammenstellbare
-Kennzahlenleiste.
+Guthaben-Wert auf der ChatGPT-Karte. Ausserdem neu: eine Störungsanzeige je
+Anbieter, Widgets für den Schreibtisch, eine kompakte Menüleisten-Kapsel mit
+bis zu vier Werten, ein Segmentwähler über den Karten, eine frei
+zusammenstellbare Kennzahlenleiste und ein freiwilliges Trinkgeld (Espresso,
+Cappuccino oder Znacht) unter Einstellungen → Über.
 
 **Neu in 6.3: eine Zeile für das, was KI diesen Monat kostet.** Abo-Preise
 einmal eintragen (Einstellungen → Anzeige → Abokosten), und das Cockpit legt
@@ -131,7 +130,7 @@ Gespeichertes) und dem Prüfprotokoll:
   gewöhnliche Schlüssel aus openrouter.ai unter Keys genügt — anders als bei
   OpenAI und Anthropic braucht es keine Organisation und keinen Admin-Zugang.
 - **Grok (xAI)** — Guthaben und Ausgabendeckel deines xAI-Kontos.
-- **GitHub Copilot** *(kommt mit 6.5, liegt bei Apple in der Prüfung)* — Premium-Anfragen aus einem privat bezahlten Abo; ein
+- **GitHub Copilot** — Premium-Anfragen aus einem privat bezahlten Abo; ein
   firmen- oder organisationsverwalteter Sitz meldet nur auf
   Organisationsebene, seine Karte bleibt dann leer.
 - **Aktive Claude-Code-Sitzungen** — Zustand, Modell, Aufwand, verrechnete
@@ -178,8 +177,10 @@ kann, bevor man sich irgendwo anmeldet.
 
 - **Verbindungen ausschliesslich zu:** `api.anthropic.com`, `claude.com` /
   `platform.claude.com` (OAuth-Anmeldung), `api.openai.com`,
-  `api.moonshot.ai` / `api.moonshot.cn` / `api.kimi.com`, `openrouter.ai` und
-  `management-api.x.ai`. Weiterleitungen werden nie befolgt; keine Telemetrie,
+  `auth.openai.com`, `chatgpt.com`, `api.moonshot.ai` / `api.moonshot.cn` /
+  `api.kimi.com`, `openrouter.ai`, `management-api.x.ai`, `api.github.com`
+  und die Statusseiten `status.claude.com`, `status.openai.com`,
+  `status.moonshot.cn`. Weiterleitungen werden nie befolgt; keine Telemetrie,
   keine Analytics, kein Update-Nachhausetelefonieren.
 - **Sitzungsinhalte werden nie übertragen.** Transkripte werden lokal und nur
   für die Anzeige gelesen.
