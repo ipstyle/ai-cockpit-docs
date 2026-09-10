@@ -19,7 +19,7 @@ auf deinem Mac, mit Subagenten, Token-Anteilen und Kontextfenstern.
 Standard Englisch, Deutsch wählbar unter Einstellungen → Anzeige.
 Braucht macOS 14. Die Bildschirmfotos zeigen die englische Oberfläche.
 
-Diese Seite beschreibt **Fassung 6.5**, seit dem 29. August 2026 im App
+Diese Seite beschreibt **Fassung 6.5**, seit dem 2. September 2026 im App
 Store erhältlich.
 
 **Gratis seit 1. September 2026.** AI-Cockpit kostet nichts mehr. An die
@@ -58,7 +58,7 @@ Einrichtungsassistent beim ersten Start und ein «Alles zurücksetzen» in den
 Einstellungen.
 
 Daneben gibt es **[AI Cockpit Mobile](https://apps.apple.com/app/id6803496344)** — eine gratis iPhone- und
-iPad-Fassung mit Apple-Watch-Begleiter, seit dem 29. August 2026 im
+iPad-Fassung mit Apple-Watch-Begleiter, seit August 2026 im
 App Store, inzwischen bei **Fassung 2.5** (freigegeben am 1. September 2026).
 Sie teilt sich den Quellcode mit dieser App (geschlossen wie hier)
 und holt ihre Karten direkt auf dem Gerät.

@@ -19,7 +19,7 @@ their subagents, token shares and context windows.
 English by default, German selectable in Settings → Display. Requires macOS 14.
 
 This page describes **version 6.5**, released on the App Store on
-29 August 2026.
+2 September 2026.
 
 **Free since 1 September 2026.** AI-Cockpit no longer costs anything. In place
 of the price sits a voluntary tip — Espresso, Cappuccino or Dinner — as an
@@ -54,7 +54,7 @@ changes if you do not add one. A demo mode, a setup assistant on first launch
 and a «reset everything» in the settings round out the picture.
 
 There is also **[AI Cockpit Mobile](https://apps.apple.com/app/id6803496344)** — a free iPhone & iPad
-edition with an Apple Watch companion, on the App Store since 29 August 2026,
+edition with an Apple Watch companion, on the App Store since August 2026,
 now at **version 2.5** (released 1 September 2026). It shares this app's
 source (closed, like this one) and fetches its cards directly on the device.
 
