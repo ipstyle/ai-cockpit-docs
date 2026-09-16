@@ -19,7 +19,7 @@ auf deinem Mac, mit Subagenten, Token-Anteilen und Kontextfenstern.
 Standard Englisch, Deutsch wählbar unter Einstellungen → Anzeige.
 Braucht macOS 14. Die Bildschirmfotos zeigen die englische Oberfläche.
 
-Diese Seite beschreibt **Fassung 6.5**, seit dem 2. September 2026 im App
+Diese Seite beschreibt **Fassung 6.6**, seit dem 16. September 2026 im App
 Store erhältlich.
 
 **Gratis seit 1. September 2026.** AI-Cockpit kostet nichts mehr. An die
@@ -27,6 +27,14 @@ Stelle des Preises tritt ein freiwilliges Trinkgeld — Espresso, Cappuccino,
 Znacht — als In-App-Kauf unter Einstellungen → Über; es schaltet nichts frei
 und ändert nichts an der App. Auf dem Mac kommt es mit 6.5, in AI Cockpit
 Mobile ist es bereits da.
+
+**Neu in 6.6:** GitHub Copilot fragt jetzt **beide** Abrechnungswege von
+GitHub ab — Premium-Anfragen und die AI Credits, auf die GitHub manche Konten
+am 1. Juni 2026 umgestellt hat — und zeigt den, der Zahlen trägt, statt bei
+umgestellten Konten stumm eine Null zu zeigen. Der Rückfall des
+modellbezogenen Wochenfensters zeigt jetzt korrekt auf Fable statt auf Opus.
+Sonst keine Änderung gegenüber 6.5; beide Korrekturen kamen aus dem
+gemeinsamen Kern und fehlten nur im Mac-Build.
 
 **Neu in 6.5:** Ein achter Anbieter, **GitHub Copilot** — er meldet nur
 Zahlen bei einem privat bezahlten Copilot-Abo; bei firmen- oder
@@ -57,9 +65,9 @@ Mitteilungen. Ohne zweites Konto ändert sich nichts. Dazu ein Demomodus, ein
 Einrichtungsassistent beim ersten Start und ein «Alles zurücksetzen» in den
 Einstellungen.
 
-Daneben gibt es **[AI Cockpit Mobile](https://apps.apple.com/app/id6803496344)** — eine gratis iPhone- und
+Daneben gibt es **[AI Cockpit für iPhone](https://apps.apple.com/app/id6803496344)** — eine gratis iPhone- und
 iPad-Fassung mit Apple-Watch-Begleiter, seit August 2026 im
-App Store, inzwischen bei **Fassung 2.5** (freigegeben am 1. September 2026).
+App Store, inzwischen bei **Fassung 2.6** (freigegeben am 16. September 2026).
 Sie teilt sich den Quellcode mit dieser App (geschlossen wie hier)
 und holt ihre Karten direkt auf dem Gerät.
 
@@ -130,7 +138,8 @@ Gespeichertes) und dem Prüfprotokoll:
   gewöhnliche Schlüssel aus openrouter.ai unter Keys genügt — anders als bei
   OpenAI und Anthropic braucht es keine Organisation und keinen Admin-Zugang.
 - **Grok (xAI)** — Guthaben und Ausgabendeckel deines xAI-Kontos.
-- **GitHub Copilot** — Premium-Anfragen aus einem privat bezahlten Abo; ein
+- **GitHub Copilot** — Premium-Anfragen oder AI Credits (je nach
+  Abrechnungsweg des Kontos) aus einem privat bezahlten Abo; ein
   firmen- oder organisationsverwalteter Sitz meldet nur auf
   Organisationsebene, seine Karte bleibt dann leer.
 - **Aktive Claude-Code-Sitzungen** — Zustand, Modell, Aufwand, verrechnete

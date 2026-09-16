@@ -18,14 +18,21 @@ their subagents, token shares and context windows.
 
 English by default, German selectable in Settings → Display. Requires macOS 14.
 
-This page describes **version 6.5**, released on the App Store on
-2 September 2026.
+This page describes **version 6.6**, released on the App Store on
+16 September 2026.
 
 **Free since 1 September 2026.** AI-Cockpit no longer costs anything. In place
 of the price sits a voluntary tip — Espresso, Cappuccino or Dinner — as an
 in-app purchase under Settings → About; it does not unlock anything and
 changes nothing about the app. On the Mac it arrives with 6.5; it is already
-live in AI Cockpit Mobile.
+live in AI Cockpit for iPhone.
+
+**New in 6.6:** GitHub Copilot now queries **both** of GitHub's billing paths
+— premium requests and the new AI credits it switched some accounts to on
+1 June 2026 — and shows whichever one carries figures, instead of silently
+showing zero for switched accounts. The model-scoped weekly window's fallback
+now correctly points at Fable instead of Opus. No other change from 6.5; both
+fixes came from the shared core and were simply missing from the Mac build.
 
 **New in 6.5:** An eighth provider, **GitHub Copilot** — it reports figures
 for a personally paid Copilot plan; GitHub exposes usage for company- or
@@ -53,9 +60,9 @@ name appears on the card, in the menu bar and in notifications. Nothing
 changes if you do not add one. A demo mode, a setup assistant on first launch
 and a «reset everything» in the settings round out the picture.
 
-There is also **[AI Cockpit Mobile](https://apps.apple.com/app/id6803496344)** — a free iPhone & iPad
+There is also **[AI Cockpit for iPhone](https://apps.apple.com/app/id6803496344)** — a free iPhone & iPad
 edition with an Apple Watch companion, on the App Store since August 2026,
-now at **version 2.5** (released 1 September 2026). It shares this app's
+now at **version 2.6** (released 16 September 2026). It shares this app's
 source (closed, like this one) and fetches its cards directly on the device.
 
 ## Screenshots
@@ -122,8 +129,9 @@ security review record:
   key from openrouter.ai under Keys is enough; no organisation, no admin
   access.
 - **Grok (xAI)** — balance and spending cap from your xAI account.
-- **GitHub Copilot** — premium request usage from a personally paid plan; a
-  company- or organization-managed seat reports only at the organization
+- **GitHub Copilot** — premium request or AI credit usage (whichever billing
+  path the account is on) from a personally paid plan; a company- or
+  organization-managed seat reports only at the organization
   level, so its card stays empty.
 - **Active Claude Code sessions** — state, model, effort, billed tokens, share
   of the current 5-hour window, context window fill level, subagents.
