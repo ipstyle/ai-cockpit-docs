@@ -2,7 +2,7 @@
 
 *[English version → README.md](README.md)*
 
-<a href="https://apps.apple.com/app/id6802014255">
+<a href="https://apps.apple.com/app/apple-store/id6802014255?pt=129315066&ct=github-readme&mt=12">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="img/mas-badge-de-dark.svg">
     <img src="img/mas-badge-de-light.svg" alt="AI-Cockpit im Mac App Store laden" height="44">
@@ -65,7 +65,7 @@ Mitteilungen. Ohne zweites Konto ändert sich nichts. Dazu ein Demomodus, ein
 Einrichtungsassistent beim ersten Start und ein «Alles zurücksetzen» in den
 Einstellungen.
 
-Daneben gibt es **[AI Cockpit für iPhone](https://apps.apple.com/app/id6803496344)** — eine gratis iPhone- und
+Daneben gibt es **[AI Cockpit für iPhone](https://apps.apple.com/app/apple-store/id6803496344?pt=129315066&ct=github-readme&mt=8)** — eine gratis iPhone- und
 iPad-Fassung mit Apple-Watch-Begleiter, seit August 2026 im
 App Store, inzwischen bei **Fassung 2.6** (freigegeben am 16. September 2026).
 Sie teilt sich den Quellcode mit dieser App (geschlossen wie hier)

@@ -2,7 +2,7 @@
 
 *[Deutsche Version → README.de.md](README.de.md)*
 
-<a href="https://apps.apple.com/app/id6802014255">
+<a href="https://apps.apple.com/app/apple-store/id6802014255?pt=129315066&ct=github-readme&mt=12">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="img/mas-badge-en-dark.svg">
     <img src="img/mas-badge-en-light.svg" alt="Download AI-Cockpit on the Mac App Store" height="44">
@@ -60,7 +60,7 @@ name appears on the card, in the menu bar and in notifications. Nothing
 changes if you do not add one. A demo mode, a setup assistant on first launch
 and a «reset everything» in the settings round out the picture.
 
-There is also **[AI Cockpit for iPhone](https://apps.apple.com/app/id6803496344)** — a free iPhone & iPad
+There is also **[AI Cockpit for iPhone](https://apps.apple.com/app/apple-store/id6803496344?pt=129315066&ct=github-readme&mt=8)** — a free iPhone & iPad
 edition with an Apple Watch companion, on the App Store since August 2026,
 now at **version 2.6** (released 16 September 2026). It shares this app's
 source (closed, like this one) and fetches its cards directly on the device.
