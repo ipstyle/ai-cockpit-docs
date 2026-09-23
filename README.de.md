@@ -67,7 +67,7 @@ Einstellungen.
 
 Daneben gibt es **[AI Cockpit für iPhone](https://apps.apple.com/app/apple-store/id6803496344?pt=129315066&ct=github-readme&mt=8)** — eine gratis iPhone- und
 iPad-Fassung mit Apple-Watch-Begleiter, seit August 2026 im
-App Store, inzwischen bei **Fassung 2.6** (freigegeben am 16. September 2026).
+App Store, inzwischen bei **Fassung 2.7** (freigegeben am 21. September 2026).
 Sie teilt sich den Quellcode mit dieser App (geschlossen wie hier)
 und holt ihre Karten direkt auf dem Gerät.
 
