@@ -62,7 +62,7 @@ and a «reset everything» in the settings round out the picture.
 
 There is also **[AI Cockpit for iPhone](https://apps.apple.com/app/apple-store/id6803496344?pt=129315066&ct=github-readme&mt=8)** — a free iPhone & iPad
 edition with an Apple Watch companion, on the App Store since August 2026,
-now at **version 2.7** (released 21 September 2026). It shares this app's
+now at **version 2.8** (released 27 September 2026). It shares this app's
 source (closed, like this one) and fetches its cards directly on the device.
 
 ## Screenshots
