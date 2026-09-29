@@ -18,14 +18,19 @@ their subagents, token shares and context windows.
 
 English by default, German selectable in Settings → Display. Requires macOS 14.
 
-This page describes **version 6.6**, released on the App Store on
-16 September 2026.
+This page describes **version 6.7**, released on the App Store on
+29 September 2026.
 
 **Free since 1 September 2026.** AI-Cockpit no longer costs anything. In place
 of the price sits a voluntary tip — Espresso, Cappuccino or Dinner — as an
 in-app purchase under Settings → About; it does not unlock anything and
 changes nothing about the app. On the Mac it arrives with 6.5; it is already
 live in AI Cockpit for iPhone.
+
+**New in 6.7:** The ChatGPT card showed the Codex credit balance as a dollar
+amount. Those credits have no cash value, so balance and spend since the start
+of the month now read as **credits**, with no conversion to dollars. The App
+Store listing has new screenshots showing all eight services.
 
 **New in 6.6:** GitHub Copilot now queries **both** of GitHub's billing paths
 — premium requests and the new AI credits it switched some accounts to on
