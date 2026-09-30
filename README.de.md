@@ -12,21 +12,41 @@
 
 Eine macOS-Menüleisten-App, die alle KI-Budgets an einem Ort zeigt: Auslastung
 des Claude-Abos, ChatGPT/Codex-Kontingente, OpenAI-API-Kosten,
-Anthropic-API-Kosten, Kimi-Guthaben, OpenRouter-Guthaben, Grok-Guthaben (xAI)
-und GitHub-Copilot-Nutzung — dazu die gerade laufenden Claude-Code-Sitzungen
+Anthropic-API-Kosten, Kimi-Guthaben, OpenRouter-Guthaben, Grok-Guthaben (xAI),
+GitHub-Copilot-Nutzung und — ab 7.0 — dein DeepSeek-Kontostand: neun Dienste,
+dazu die gerade laufenden Claude-Code-Sitzungen
 auf deinem Mac, mit Subagenten, Token-Anteilen und Kontextfenstern.
 
 Standard Englisch, Deutsch wählbar unter Einstellungen → Anzeige.
 Braucht macOS 14. Die Bildschirmfotos zeigen die englische Oberfläche.
 
-Diese Seite beschreibt **Fassung 6.7**, seit dem 29. September 2026 im App
-Store erhältlich.
+Diese Seite beschreibt **Fassung 6.8**, seit dem 30. September 2026 im App
+Store erhältlich. **Fassung 7.0** ist seit dem 30. September 2026 bei Apple in
+Prüfung; sie enthält 6.9, die vor der Freigabe zurückgezogen wurde und nie
+einzeln erschienen ist.
 
 **Gratis seit 1. September 2026.** AI-Cockpit kostet nichts mehr. An die
 Stelle des Preises tritt ein freiwilliges Trinkgeld — Espresso, Cappuccino,
 Znacht — als In-App-Kauf unter Einstellungen → Über; es schaltet nichts frei
 und ändert nichts an der App. Auf dem Mac kommt es mit 6.5, in AI Cockpit
 Mobile ist es bereits da.
+
+**Kommt mit 7.0 (in Prüfung):** **DeepSeek** als neunter Dienst — dein
+Kontostand je Währung, mit dem, was du aufgeladen hast, und dem, was geschenkt
+wurde, nie über Währungen zusammengezählt; ist das Guthaben aufgebraucht, sagt
+es die Karte. Ein **Suchfeld in den Einstellungen** findet jeden Schalter auf
+Deutsch und Englisch. Dazu alles aus 6.9: jedes Kontingent als **verbraucht
+oder verbleibend** (auch in der Menüleiste), eine **Zeitmarke**, die «15 % über
+Plan», «im Plan» oder «unter Plan» sagt, ein **einstellbares Widget** (eine
+Quelle oder alle, mit Codex-Credits und laufendem Countdown — nach dem Update
+einmal neu hinzufügen) und ruhigere Abfragen. Ausführlich:
+[aicockpit.info/de/whats-new-mac.html](https://aicockpit.info/de/whats-new-mac.html).
+
+**Neu in 6.8:** das Fenster **Verbrauch** — wohin dein Claude- und
+Codex-Kontingent ging, je Projekt, Modell und Stunde, bis ein Jahr zurück, mit
+Bericht als HTML oder CSV; der Verlauf hält 180 Tage; ein Monatsbudget für alle
+API-Kosten warnt bei 75 und 100 %. Behoben: Die Kosten der Anthropic-API waren
+hundertfach zu hoch, und Sitzungstokens zählte die App rund 2,7-fach.
 
 **Neu in 6.7:** Die ChatGPT-Karte zeigte das Codex-Guthaben als Dollarbetrag.
 Diese Credits haben keinen Geldwert — Guthaben und Verbrauch seit Monatsbeginn
@@ -72,9 +92,17 @@ Einstellungen.
 
 Daneben gibt es **[AI Cockpit für iPhone](https://apps.apple.com/app/apple-store/id6803496344?pt=129315066&ct=github-readme&mt=8)** — eine gratis iPhone- und
 iPad-Fassung mit Apple-Watch-Begleiter, seit August 2026 im
-App Store, inzwischen bei **Fassung 2.8** (freigegeben am 27. September 2026).
+App Store, inzwischen bei **Fassung 2.9** (freigegeben am 30. September 2026);
+**2.11** mit DeepSeek und einer Uhr-Komplikation nach Wahl ist in Prüfung.
 Sie teilt sich den Quellcode mit dieser App (geschlossen wie hier)
 und holt ihre Karten direkt auf dem Gerät.
+
+Und es gibt **AI Cockpit für Windows** — gratis, ausserhalb der Stores, im
+Infobereich der Taskleiste. **Fassung 1.5.0** ist seit dem 30. September 2026 auf
+[GitHub](https://github.com/ipstyle/ai-cockpit-windows/releases/tag/v1.5.0) zu haben: alle neun Dienste, das Fenster «Verbrauch», ein
+Gesamtbudget und ein Hinweis, wenn eine neue Fassung da ist. Sie ist nicht
+signiert und lief noch auf keinem echten Windows-Rechner — das steht so im
+Release-Text.
 
 ## Bildschirmfotos
 
@@ -124,7 +152,7 @@ Gespeichertes) und dem Prüfprotokoll:
   dem Anfangsbuchstaben des Dienstes vor jedem Kartennamen: C für Claude,
   C2 für ein zweites Claude-Konto, G für ChatGPT, O für die OpenAI-API,
   A für die Anthropic-API, K für Kimi, R für OpenRouter, X für Grok,
-  GC für GitHub Copilot, S für die Sitzungen. Buchstaben, nicht die Logos
+  GC für GitHub Copilot, DS für DeepSeek (ab 7.0), S für die Sitzungen. Buchstaben, nicht die Logos
   der Anbieter.
 - **Claude-Abo** — 5-Stunden- und 7-Tage-Fenster, modellbezogene Wochenfenster,
   Zurücksetzungszeiten, Sparklines und Hochrechnung («bei diesem Tempo voll um
@@ -147,6 +175,9 @@ Gespeichertes) und dem Prüfprotokoll:
   Abrechnungsweg des Kontos) aus einem privat bezahlten Abo; ein
   firmen- oder organisationsverwalteter Sitz meldet nur auf
   Organisationsebene, seine Karte bleibt dann leer.
+- **DeepSeek** (ab 7.0) — Kontostand je Währung, aufgeladen und geschenkt; ein
+  gewöhnlicher API-Schlüssel von platform.deepseek.com genügt. DeepSeek bietet
+  keinen Endpunkt für den Verbrauch, und die Karte sagt das.
 - **Aktive Claude-Code-Sitzungen** — Zustand, Modell, Aufwand, verrechnete
   Token, Anteil am laufenden 5-Stunden-Fenster, Füllstand des Kontextfensters,
   Subagenten.
@@ -172,8 +203,8 @@ kann, bevor man sich irgendwo anmeldet.
    (`sk-admin-…`) von platform.openai.com → Settings → Admin keys,
    Anthropic-Admin-Schlüssel (`sk-ant-admin-…`) aus console.anthropic.com
    ein Kimi-Schlüssel von platform.kimi.ai (bzw. .com für China), ein
-   OpenRouter-Schlüssel aus openrouter.ai → Keys und/oder ein xAI-Schlüssel
-   für Grok. Nur eintragen, was du nutzt — jede Karte ist optional.
+   OpenRouter-Schlüssel aus openrouter.ai → Keys, ein xAI-Schlüssel für Grok
+   und/oder, ab 7.0, ein DeepSeek-Schlüssel von platform.deepseek.com. Nur eintragen, was du nutzt — jede Karte ist optional.
 3. **ChatGPT — nichts zu tun:** läuft, sobald die ChatGPT-App mit Codex
    installiert und angemeldet ist.
 4. **Sitzungen zeigen** — einmalig Lesezugriff auf `~/.claude` gewähren, wenn
@@ -192,8 +223,8 @@ kann, bevor man sich irgendwo anmeldet.
 - **Verbindungen ausschliesslich zu:** `api.anthropic.com`, `claude.com` /
   `platform.claude.com` (OAuth-Anmeldung), `api.openai.com`,
   `auth.openai.com`, `chatgpt.com`, `api.moonshot.ai` / `api.moonshot.cn` /
-  `api.kimi.com`, `openrouter.ai`, `management-api.x.ai`, `api.github.com`
-  und die Statusseiten `status.claude.com`, `status.openai.com`,
+  `api.kimi.com`, `openrouter.ai`, `management-api.x.ai`, `api.github.com`,
+  `api.deepseek.com` (ab 7.0) und die Statusseiten `status.claude.com`, `status.openai.com`,
   `status.moonshot.cn`. Weiterleitungen werden nie befolgt; keine Telemetrie,
   keine Analytics, kein Update-Nachhausetelefonieren.
 - **Sitzungsinhalte werden nie übertragen.** Transkripte werden lokal und nur
@@ -217,5 +248,6 @@ zeigt? → [aicockpit.info/de/#feedback](https://aicockpit.info/de/#feedback)
 © 2026 Albert Frick (ipstyle). Alle Rechte vorbehalten. Dieses Repository
 enthält nur Dokumentation und Bildschirmfotos; die App selbst ist proprietär.
 Claude ist eine Marke von Anthropic, ChatGPT und Codex von OpenAI, Kimi von
-Moonshot AI, Grok von xAI, OpenRouter von OpenRouter, Inc. AI-Cockpit ist ein
+Moonshot AI, Grok von xAI, OpenRouter von OpenRouter, Inc., GitHub Copilot von
+GitHub, DeepSeek von DeepSeek. AI-Cockpit ist ein
 unabhängiges Werkzeug und steht mit keinem dieser Anbieter in Verbindung.
