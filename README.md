@@ -13,23 +13,24 @@
 A macOS menu bar app that keeps every AI budget you have in one place: Claude
 subscription usage, ChatGPT/Codex quotas, OpenAI API costs, Anthropic API
 costs, Kimi credit, OpenRouter credits, Grok (xAI) balance, GitHub Copilot
-usage and — from 7.0 — your DeepSeek balance: nine services, plus the Claude Code sessions currently running on your Mac, with
+usage and — from 7.2 — your DeepSeek balance: nine services, plus the Claude Code sessions currently running on your Mac, with
 their subagents, token shares and context windows.
 
 English by default, German selectable in Settings → Display. Requires macOS 14.
 
 This page describes **version 6.8**, released on the App Store on
-30 September 2026. **Version 7.0** was submitted to Apple on 30 September 2026
-and is in review; it includes 6.9, which was withdrawn before release and never
-came out on its own.
+30 September 2026. **Version 7.2** was submitted to Apple on 3 October 2026
+and is in review; it includes 6.9, 7.0 and 7.1, which were withdrawn before
+release and never came out on their own.
 
 **Free since 1 September 2026.** AI-Cockpit no longer costs anything. In place
 of the price sits a voluntary tip — Espresso, Cappuccino or Dinner — as an
 in-app purchase under Settings → About; it does not unlock anything and
-changes nothing about the app. On the Mac it arrives with 6.5; it is already
-live in AI Cockpit for iPhone.
+changes nothing about the app. It is live on the Mac and on iPhone.
 
-**Coming in 7.0 (in review):** **DeepSeek** as the ninth service — your
+**Coming in 7.2 (in review):** a **forecast under every window** — when a
+quota runs full at your pace, before the reset — a right-click menu on the
+menu bar icon and a new **Accounts page**. **DeepSeek** as the ninth service — your
 balance per currency, with what you topped up and what was granted, never
 added up across currencies; the card says so when the balance runs out. A
 **search field in the settings** finds every switch in English and German.
@@ -85,14 +86,15 @@ and a «reset everything» in the settings round out the picture.
 
 There is also **[AI Cockpit for iPhone](https://apps.apple.com/app/apple-store/id6803496344?pt=129315066&ct=github-readme&mt=8)** — a free iPhone & iPad
 edition with an Apple Watch companion, on the App Store since August 2026,
-now at **version 2.9** (released 30 September 2026); **2.11**, with DeepSeek and
-a watch complication you set up, is in review. It shares this app's
+now at **version 2.13** (released 3 October 2026): DeepSeek, a watch
+complication you set up, widgets that renew an expired sign-in themselves, a
+forecast under every window and a refresh button in the widget. It shares this app's
 source (closed, like this one) and fetches its cards directly on the device.
 
 And there is **AI Cockpit for Windows** — free, outside the stores, in the
-notification area of the taskbar. **Version 1.5.0** is out since 30 September 2026
-on [GitHub](https://github.com/ipstyle/ai-cockpit-windows/releases/tag/v1.5.0): all nine services, the Usage window, a total budget
-and a notice when a new version is out. It is unsigned and has not yet run on
+notification area of the taskbar. **Version 1.6.0** is out since 3 October 2026
+on [GitHub](https://github.com/ipstyle/ai-cockpit-windows/releases/tag/v1.6.0): all nine services, an Accounts overview, a search
+in the settings, the forecast under every window and GitHub outages for Copilot. It is unsigned and has not yet run on
 a real Windows PC — the release notes say so.
 
 ## Screenshots
@@ -142,7 +144,7 @@ security review record:
   service's initial in front of each card name: C for Claude, C2 for a second
   Claude account, G for ChatGPT, O for the OpenAI API, A for the Anthropic API,
   K for Kimi, R for OpenRouter, X for Grok, GC for GitHub Copilot, DS for
-  DeepSeek (from 7.0), S for sessions. Letters, not the providers' logos.
+  DeepSeek (from 7.2), S for sessions. Letters, not the providers' logos.
 - **Claude subscription** — 5-hour and 7-day windows, per-model weekly windows,
   reset times, trend sparklines and a forecast («at this pace, full at 16:44»).
   **Twice over if you want:** a second account sits on its own card, with its
@@ -163,7 +165,7 @@ security review record:
   path the account is on) from a personally paid plan; a company- or
   organization-managed seat reports only at the organization
   level, so its card stays empty.
-- **DeepSeek** (from 7.0) — balance per currency, topped up and granted; an
+- **DeepSeek** (from 7.2) — balance per currency, topped up and granted; an
   ordinary API key from platform.deepseek.com is enough. DeepSeek offers no
   usage endpoint, and the card says so.
 - **Active Claude Code sessions** — state, model, effort, billed tokens, share
@@ -189,7 +191,7 @@ so you can look around before signing in to anything.
    (`sk-admin-…`) from platform.openai.com → Settings → Admin keys, Anthropic
    admin key (`sk-ant-admin-…`) from console.anthropic.com, a Kimi key
    from platform.kimi.ai (or .com for China), an OpenRouter key from
-   openrouter.ai → Keys, an xAI key for Grok and/or, from 7.0, a DeepSeek key
+   openrouter.ai → Keys, an xAI key for Grok and/or, from 7.2, a DeepSeek key
    from platform.deepseek.com. Add only what you use —
    every card is optional.
 3. **ChatGPT — nothing to do:** works as soon as the ChatGPT app with Codex is
@@ -211,7 +213,7 @@ so you can look around before signing in to anything.
   `platform.claude.com` (OAuth sign-in), `api.openai.com`, `auth.openai.com`,
   `chatgpt.com`, `api.moonshot.ai` / `api.moonshot.cn` / `api.kimi.com`,
   `openrouter.ai`, `management-api.x.ai`, `api.github.com`, `api.deepseek.com`
-  (from 7.0) and the status
+  (from 7.2) and the status
   pages `status.claude.com`, `status.openai.com`, `status.moonshot.cn`.
   Redirects are never followed; there is no telemetry,
   no analytics, no update phone-home.

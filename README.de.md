@@ -13,7 +13,7 @@
 Eine macOS-Menüleisten-App, die alle KI-Budgets an einem Ort zeigt: Auslastung
 des Claude-Abos, ChatGPT/Codex-Kontingente, OpenAI-API-Kosten,
 Anthropic-API-Kosten, Kimi-Guthaben, OpenRouter-Guthaben, Grok-Guthaben (xAI),
-GitHub-Copilot-Nutzung und — ab 7.0 — dein DeepSeek-Kontostand: neun Dienste,
+GitHub-Copilot-Nutzung und — ab 7.2 — dein DeepSeek-Kontostand: neun Dienste,
 dazu die gerade laufenden Claude-Code-Sitzungen
 auf deinem Mac, mit Subagenten, Token-Anteilen und Kontextfenstern.
 
@@ -21,17 +21,18 @@ Standard Englisch, Deutsch wählbar unter Einstellungen → Anzeige.
 Braucht macOS 14. Die Bildschirmfotos zeigen die englische Oberfläche.
 
 Diese Seite beschreibt **Fassung 6.8**, seit dem 30. September 2026 im App
-Store erhältlich. **Fassung 7.0** ist seit dem 30. September 2026 bei Apple in
-Prüfung; sie enthält 6.9, die vor der Freigabe zurückgezogen wurde und nie
-einzeln erschienen ist.
+Store erhältlich. **Fassung 7.2** ist seit dem 3. Oktober 2026 bei Apple in
+Prüfung; sie enthält 6.9, 7.0 und 7.1, die vor der Freigabe zurückgezogen
+wurden und nie einzeln erschienen sind.
 
 **Gratis seit 1. September 2026.** AI-Cockpit kostet nichts mehr. An die
 Stelle des Preises tritt ein freiwilliges Trinkgeld — Espresso, Cappuccino,
 Znacht — als In-App-Kauf unter Einstellungen → Über; es schaltet nichts frei
-und ändert nichts an der App. Auf dem Mac kommt es mit 6.5, in AI Cockpit
-Mobile ist es bereits da.
+und ändert nichts an der App. Es ist auf dem Mac und auf dem iPhone da.
 
-**Kommt mit 7.0 (in Prüfung):** **DeepSeek** als neunter Dienst — dein
+**Kommt mit 7.2 (in Prüfung):** eine **Hochrechnung unter jedem Fenster** —
+wann ein Kontingent bei deinem Tempo voll ist, vor der Zurücksetzung —, ein
+Rechtsklick-Menü am Menüleistensymbol und eine neue **Kontenseite**. **DeepSeek** als neunter Dienst — dein
 Kontostand je Währung, mit dem, was du aufgeladen hast, und dem, was geschenkt
 wurde, nie über Währungen zusammengezählt; ist das Guthaben aufgebraucht, sagt
 es die Karte. Ein **Suchfeld in den Einstellungen** findet jeden Schalter auf
@@ -92,15 +93,18 @@ Einstellungen.
 
 Daneben gibt es **[AI Cockpit für iPhone](https://apps.apple.com/app/apple-store/id6803496344?pt=129315066&ct=github-readme&mt=8)** — eine gratis iPhone- und
 iPad-Fassung mit Apple-Watch-Begleiter, seit August 2026 im
-App Store, inzwischen bei **Fassung 2.9** (freigegeben am 30. September 2026);
-**2.11** mit DeepSeek und einer Uhr-Komplikation nach Wahl ist in Prüfung.
+App Store, inzwischen bei **Fassung 2.13** (freigegeben am 3. Oktober 2026):
+DeepSeek, eine Uhr-Komplikation nach Wahl, Widgets, die eine abgelaufene
+Anmeldung selbst erneuern, eine Hochrechnung unter jedem Fenster und ein Knopf
+zum Aktualisieren im Widget.
 Sie teilt sich den Quellcode mit dieser App (geschlossen wie hier)
 und holt ihre Karten direkt auf dem Gerät.
 
 Und es gibt **AI Cockpit für Windows** — gratis, ausserhalb der Stores, im
-Infobereich der Taskleiste. **Fassung 1.5.0** ist seit dem 30. September 2026 auf
-[GitHub](https://github.com/ipstyle/ai-cockpit-windows/releases/tag/v1.5.0) zu haben: alle neun Dienste, das Fenster «Verbrauch», ein
-Gesamtbudget und ein Hinweis, wenn eine neue Fassung da ist. Sie ist nicht
+Infobereich der Taskleiste. **Fassung 1.6.0** ist seit dem 3. Oktober 2026 auf
+[GitHub](https://github.com/ipstyle/ai-cockpit-windows/releases/tag/v1.6.0) zu haben: alle neun Dienste, eine Kontenübersicht, eine
+Suche in den Einstellungen, die Hochrechnung unter jedem Fenster und
+GitHub-Störungen für Copilot. Sie ist nicht
 signiert und lief noch auf keinem echten Windows-Rechner — das steht so im
 Release-Text.
 
@@ -152,7 +156,7 @@ Gespeichertes) und dem Prüfprotokoll:
   dem Anfangsbuchstaben des Dienstes vor jedem Kartennamen: C für Claude,
   C2 für ein zweites Claude-Konto, G für ChatGPT, O für die OpenAI-API,
   A für die Anthropic-API, K für Kimi, R für OpenRouter, X für Grok,
-  GC für GitHub Copilot, DS für DeepSeek (ab 7.0), S für die Sitzungen. Buchstaben, nicht die Logos
+  GC für GitHub Copilot, DS für DeepSeek (ab 7.2), S für die Sitzungen. Buchstaben, nicht die Logos
   der Anbieter.
 - **Claude-Abo** — 5-Stunden- und 7-Tage-Fenster, modellbezogene Wochenfenster,
   Zurücksetzungszeiten, Sparklines und Hochrechnung («bei diesem Tempo voll um
@@ -175,7 +179,7 @@ Gespeichertes) und dem Prüfprotokoll:
   Abrechnungsweg des Kontos) aus einem privat bezahlten Abo; ein
   firmen- oder organisationsverwalteter Sitz meldet nur auf
   Organisationsebene, seine Karte bleibt dann leer.
-- **DeepSeek** (ab 7.0) — Kontostand je Währung, aufgeladen und geschenkt; ein
+- **DeepSeek** (ab 7.2) — Kontostand je Währung, aufgeladen und geschenkt; ein
   gewöhnlicher API-Schlüssel von platform.deepseek.com genügt. DeepSeek bietet
   keinen Endpunkt für den Verbrauch, und die Karte sagt das.
 - **Aktive Claude-Code-Sitzungen** — Zustand, Modell, Aufwand, verrechnete
@@ -204,7 +208,7 @@ kann, bevor man sich irgendwo anmeldet.
    Anthropic-Admin-Schlüssel (`sk-ant-admin-…`) aus console.anthropic.com
    ein Kimi-Schlüssel von platform.kimi.ai (bzw. .com für China), ein
    OpenRouter-Schlüssel aus openrouter.ai → Keys, ein xAI-Schlüssel für Grok
-   und/oder, ab 7.0, ein DeepSeek-Schlüssel von platform.deepseek.com. Nur eintragen, was du nutzt — jede Karte ist optional.
+   und/oder, ab 7.2, ein DeepSeek-Schlüssel von platform.deepseek.com. Nur eintragen, was du nutzt — jede Karte ist optional.
 3. **ChatGPT — nichts zu tun:** läuft, sobald die ChatGPT-App mit Codex
    installiert und angemeldet ist.
 4. **Sitzungen zeigen** — einmalig Lesezugriff auf `~/.claude` gewähren, wenn
@@ -224,7 +228,7 @@ kann, bevor man sich irgendwo anmeldet.
   `platform.claude.com` (OAuth-Anmeldung), `api.openai.com`,
   `auth.openai.com`, `chatgpt.com`, `api.moonshot.ai` / `api.moonshot.cn` /
   `api.kimi.com`, `openrouter.ai`, `management-api.x.ai`, `api.github.com`,
-  `api.deepseek.com` (ab 7.0) und die Statusseiten `status.claude.com`, `status.openai.com`,
+  `api.deepseek.com` (ab 7.2) und die Statusseiten `status.claude.com`, `status.openai.com`,
   `status.moonshot.cn`. Weiterleitungen werden nie befolgt; keine Telemetrie,
   keine Analytics, kein Update-Nachhausetelefonieren.
 - **Sitzungsinhalte werden nie übertragen.** Transkripte werden lokal und nur
