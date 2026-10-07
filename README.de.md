@@ -13,24 +13,23 @@
 Eine macOS-Menüleisten-App, die alle KI-Budgets an einem Ort zeigt: Auslastung
 des Claude-Abos, ChatGPT/Codex-Kontingente, OpenAI-API-Kosten,
 Anthropic-API-Kosten, Kimi-Guthaben, OpenRouter-Guthaben, Grok-Guthaben (xAI),
-GitHub-Copilot-Nutzung und — ab 7.2 — dein DeepSeek-Kontostand: neun Dienste,
+GitHub-Copilot-Nutzung und dein DeepSeek-Kontostand: neun Dienste,
 dazu die gerade laufenden Claude-Code-Sitzungen
 auf deinem Mac, mit Subagenten, Token-Anteilen und Kontextfenstern.
 
 Standard Englisch, Deutsch wählbar unter Einstellungen → Anzeige.
 Braucht macOS 14. Die Bildschirmfotos zeigen die englische Oberfläche.
 
-Diese Seite beschreibt **Fassung 6.8**, seit dem 30. September 2026 im App
-Store erhältlich. **Fassung 7.2** ist seit dem 3. Oktober 2026 bei Apple in
-Prüfung; sie enthält 6.9, 7.0 und 7.1, die vor der Freigabe zurückgezogen
-wurden und nie einzeln erschienen sind.
+Diese Seite beschreibt **Fassung 7.2**, seit dem 7. Oktober 2026 im Mac App
+Store erhältlich. Sie enthält 6.9, 7.0 und 7.1, die vor der Freigabe
+zurückgezogen wurden und nie einzeln erschienen sind.
 
 **Gratis seit 1. September 2026.** AI-Cockpit kostet nichts mehr. An die
 Stelle des Preises tritt ein freiwilliges Trinkgeld — Espresso, Cappuccino,
 Znacht — als In-App-Kauf unter Einstellungen → Über; es schaltet nichts frei
 und ändert nichts an der App. Es ist auf dem Mac und auf dem iPhone da.
 
-**Kommt mit 7.2 (in Prüfung):** eine **Hochrechnung unter jedem Fenster** —
+**Neu in 7.2:** eine **Hochrechnung unter jedem Fenster** —
 wann ein Kontingent bei deinem Tempo voll ist, vor der Zurücksetzung —, ein
 Rechtsklick-Menü am Menüleistensymbol und eine neue **Kontenseite**. **DeepSeek** als neunter Dienst — dein
 Kontostand je Währung, mit dem, was du aufgeladen hast, und dem, was geschenkt

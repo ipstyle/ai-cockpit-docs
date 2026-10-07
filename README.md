@@ -13,14 +13,13 @@
 A macOS menu bar app that keeps every AI budget you have in one place: Claude
 subscription usage, ChatGPT/Codex quotas, OpenAI API costs, Anthropic API
 costs, Kimi credit, OpenRouter credits, Grok (xAI) balance, GitHub Copilot
-usage and — from 7.2 — your DeepSeek balance: nine services, plus the Claude Code sessions currently running on your Mac, with
+usage and your DeepSeek balance: nine services, plus the Claude Code sessions currently running on your Mac, with
 their subagents, token shares and context windows.
 
 English by default, German selectable in Settings → Display. Requires macOS 14.
 
-This page describes **version 6.8**, released on the App Store on
-30 September 2026. **Version 7.2** was submitted to Apple on 3 October 2026
-and is in review; it includes 6.9, 7.0 and 7.1, which were withdrawn before
+This page describes **version 7.2**, released on the Mac App Store on
+7 October 2026. It includes 6.9, 7.0 and 7.1, which were withdrawn before
 release and never came out on their own.
 
 **Free since 1 September 2026.** AI-Cockpit no longer costs anything. In place
@@ -28,7 +27,7 @@ of the price sits a voluntary tip — Espresso, Cappuccino or Dinner — as an
 in-app purchase under Settings → About; it does not unlock anything and
 changes nothing about the app. It is live on the Mac and on iPhone.
 
-**Coming in 7.2 (in review):** a **forecast under every window** — when a
+**New in 7.2:** a **forecast under every window** — when a
 quota runs full at your pace, before the reset — a right-click menu on the
 menu bar icon and a new **Accounts page**. **DeepSeek** as the ninth service — your
 balance per currency, with what you topped up and what was granted, never
