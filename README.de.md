@@ -20,14 +20,24 @@ auf deinem Mac, mit Subagenten, Token-Anteilen und Kontextfenstern.
 Standard Englisch, Deutsch wählbar unter Einstellungen → Anzeige.
 Braucht macOS 14. Die Bildschirmfotos zeigen die englische Oberfläche.
 
-Diese Seite beschreibt **Fassung 7.2**, seit dem 7. Oktober 2026 im Mac App
-Store erhältlich. Sie enthält 6.9, 7.0 und 7.1, die vor der Freigabe
-zurückgezogen wurden und nie einzeln erschienen sind.
+Diese Seite beschreibt **Fassung 7.6**, seit dem 16. Oktober 2026 im Mac App
+Store erhältlich; **Fassung 7.7** ist bei Apple in Prüfung. Fassungen 6.9, 7.0
+und 7.1 wurden vor der Freigabe zurückgezogen und sind nie einzeln erschienen.
+Die Website [aicockpit.info/de](https://aicockpit.info/de/) ist die Hauptquelle:
+aktuelle Fassungen und der Windows-Download stehen dort zuerst.
 
 **Gratis seit 1. September 2026.** AI-Cockpit kostet nichts mehr. An die
 Stelle des Preises tritt ein freiwilliges Trinkgeld — Espresso, Cappuccino,
 Znacht — als In-App-Kauf unter Einstellungen → Über; es schaltet nichts frei
 und ändert nichts an der App. Es ist auf dem Mac und auf dem iPhone da.
+
+**Neu in 7.6:** eine Störungsleiste statt dreier Kopien, mit dem Schweregrad in
+Klartext und Copilot dabei; eine zweistufige Kartenkopfzeile, damit nichts mehr
+abgeschnitten wird; und ein klareres Prozent- und Betragsformat («63 %»,
+«USD 12.40»). Die Einstellungen haben jetzt die Seiten «Allgemein» und «Kosten»,
+die Suche springt zum passenden Abschnitt. Der Verlauf lässt sich exportieren und
+importieren, und die täglichen OpenAI-Kosten zählen nach UTC. Die Sparklines
+zeigen eine Zeitachse und die Plan-Linie.
 
 **Neu in 7.2:** eine **Hochrechnung unter jedem Fenster** —
 wann ein Kontingent bei deinem Tempo voll ist, vor der Zurücksetzung —, ein
@@ -92,7 +102,8 @@ Einstellungen.
 
 Daneben gibt es **[AI Cockpit für iPhone](https://apps.apple.com/app/apple-store/id6803496344?pt=129315066&ct=github-readme&mt=8)** — eine gratis iPhone- und
 iPad-Fassung mit Apple-Watch-Begleiter, seit August 2026 im
-App Store, inzwischen bei **Fassung 2.13** (freigegeben am 3. Oktober 2026):
+App Store, inzwischen bei **Fassung 2.17** (live seit 13. Oktober 2026; 2.18 ist
+bei Apple in Prüfung):
 DeepSeek, eine Uhr-Komplikation nach Wahl, Widgets, die eine abgelaufene
 Anmeldung selbst erneuern, eine Hochrechnung unter jedem Fenster und ein Knopf
 zum Aktualisieren im Widget.
@@ -100,12 +111,11 @@ Sie teilt sich den Quellcode mit dieser App (geschlossen wie hier)
 und holt ihre Karten direkt auf dem Gerät.
 
 Und es gibt **AI Cockpit für Windows** — gratis, ausserhalb der Stores, im
-Infobereich der Taskleiste. **Fassung 1.6.0** ist seit dem 3. Oktober 2026 auf
-[GitHub](https://github.com/ipstyle/ai-cockpit-windows/releases/tag/v1.6.0) zu haben: alle neun Dienste, eine Kontenübersicht, eine
-Suche in den Einstellungen, die Hochrechnung unter jedem Fenster und
-GitHub-Störungen für Copilot. Sie ist nicht
-signiert und lief noch auf keinem echten Windows-Rechner — das steht so im
-Release-Text.
+Infobereich der Taskleiste. **Fassung 1.10.0** ist seit dem 18. Oktober 2026
+öffentlich, im Stil von Windows 11 und funktional nahe an der Mac-Fassung:
+Sitzungskarte, Systemlast, Verlauf mit Export und Import, Tageszusammenfassung.
+Laden nur über [aicockpit.info/download.html](https://aicockpit.info/download.html).
+Sie ist nicht signiert.
 
 ## Bildschirmfotos
 

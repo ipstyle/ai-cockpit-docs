@@ -18,14 +18,23 @@ their subagents, token shares and context windows.
 
 English by default, German selectable in Settings → Display. Requires macOS 14.
 
-This page describes **version 7.2**, released on the Mac App Store on
-7 October 2026. It includes 6.9, 7.0 and 7.1, which were withdrawn before
-release and never came out on their own.
+This page describes **version 7.6**, live on the Mac App Store since 16
+October 2026; **version 7.7** is in review at Apple. Versions 6.9, 7.0 and 7.1
+were withdrawn before release and never came out on their own. The website
+[aicockpit.info](https://aicockpit.info) is the main source: current versions
+and the Windows download are there first.
 
 **Free since 1 September 2026.** AI-Cockpit no longer costs anything. In place
 of the price sits a voluntary tip — Espresso, Cappuccino or Dinner — as an
 in-app purchase under Settings → About; it does not unlock anything and
 changes nothing about the app. It is live on the Mac and on iPhone.
+
+**New in 7.6:** one outage bar instead of three copies, with the severity in
+plain words and Copilot included; a two-level card header, so nothing gets cut
+off; and a clearer percent format (63%, USD 12.40). Settings now has two pages,
+General and Costs, and the search jumps to the right section. The history can be
+exported and imported, and OpenAI's daily costs are counted in UTC. The
+sparklines show a window axis and a plan line.
 
 **New in 7.2:** a **forecast under every window** — when a
 quota runs full at your pace, before the reset — a right-click menu on the
@@ -85,16 +94,18 @@ and a «reset everything» in the settings round out the picture.
 
 There is also **[AI Cockpit for iPhone](https://apps.apple.com/app/apple-store/id6803496344?pt=129315066&ct=github-readme&mt=8)** — a free iPhone & iPad
 edition with an Apple Watch companion, on the App Store since August 2026,
-now at **version 2.13** (released 3 October 2026): DeepSeek, a watch
+now at **version 2.17** (live since 13 October 2026; 2.18 is in review at
+Apple): DeepSeek, a watch
 complication you set up, widgets that renew an expired sign-in themselves, a
 forecast under every window and a refresh button in the widget. It shares this app's
 source (closed, like this one) and fetches its cards directly on the device.
 
 And there is **AI Cockpit for Windows** — free, outside the stores, in the
-notification area of the taskbar. **Version 1.6.0** is out since 3 October 2026
-on [GitHub](https://github.com/ipstyle/ai-cockpit-windows/releases/tag/v1.6.0): all nine services, an Accounts overview, a search
-in the settings, the forecast under every window and GitHub outages for Copilot. It is unsigned and has not yet run on
-a real Windows PC — the release notes say so.
+notification area of the taskbar. **Version 1.10.0** has been public since 18
+October 2026, in the Windows 11 style and close to the Mac version in features:
+a session card, a system load display, history export and import, a daily
+summary. Download it only from [aicockpit.info/download.html](https://aicockpit.info/download.html).
+It is unsigned.
 
 ## Screenshots
 
