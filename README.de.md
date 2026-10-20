@@ -20,8 +20,8 @@ auf deinem Mac, mit Subagenten, Token-Anteilen und Kontextfenstern.
 Standard Englisch, Deutsch wählbar unter Einstellungen → Anzeige.
 Braucht macOS 14. Die Bildschirmfotos zeigen die englische Oberfläche.
 
-Diese Seite beschreibt **Fassung 7.6**, seit dem 16. Oktober 2026 im Mac App
-Store erhältlich; **Fassung 7.7** ist bei Apple in Prüfung. Fassungen 6.9, 7.0
+Diese Seite beschreibt **Fassung 7.7**, seit dem 20. Oktober 2026 im Mac App
+Store erhältlich. Fassungen 6.9, 7.0
 und 7.1 wurden vor der Freigabe zurückgezogen und sind nie einzeln erschienen.
 Die Website [aicockpit.info/de](https://aicockpit.info/de/) ist die Hauptquelle:
 aktuelle Fassungen und der Windows-Download stehen dort zuerst.
@@ -30,6 +30,8 @@ aktuelle Fassungen und der Windows-Download stehen dort zuerst.
 Stelle des Preises tritt ein freiwilliges Trinkgeld — Espresso, Cappuccino,
 Znacht — als In-App-Kauf unter Einstellungen → Über; es schaltet nichts frei
 und ändert nichts an der App. Es ist auf dem Mac und auf dem iPhone da.
+
+**Neu in 7.7 und 2.18:** eine Sitzungskarte für Claude Code und Codex, auf dem Mac und unter Windows. Sie ordnet nach dem, was auf dich wartet: zuerst die Sitzungen, die eine Antwort brauchen, dann die laufenden, zuletzt die ruhenden. Die Kopfzeile zeigt Prozessorlast und Speicher, die Kennzahlenleiste lässt sich ordnen. Die Claude-Werte können direkt aus der Statuszeile von Claude Code kommen (optional einrichtbar), damit die Karte auch bei langsamer Anthropic-Antwort aktuell bleibt. «Anbieter überlastet» steht getrennt vom Limit. Die OpenAI-Kosten laden in Stücken zu 31 Tagen; Tage, die sich nicht lesen lassen, werden benannt und nie als Null gezählt. Eine Diagnose-Seite zeigt den Zustand je Anbieter und die letzten 50 Abrufe. Die iPhone-Fassung hat die OpenAI-Korrektur und die Diagnose-Seite, aber keine Sitzungskarte: Sitzungen sind Dateien auf dem Computer.
 
 **Neu in 7.6:** eine Störungsleiste statt dreier Kopien, mit dem Schweregrad in
 Klartext und Copilot dabei; eine zweistufige Kartenkopfzeile, damit nichts mehr
@@ -102,8 +104,7 @@ Einstellungen.
 
 Daneben gibt es **[AI Cockpit für iPhone](https://apps.apple.com/app/apple-store/id6803496344?pt=129315066&ct=github-readme&mt=8)** — eine gratis iPhone- und
 iPad-Fassung mit Apple-Watch-Begleiter, seit August 2026 im
-App Store, inzwischen bei **Fassung 2.17** (live seit 13. Oktober 2026; 2.18 ist
-bei Apple in Prüfung):
+App Store, inzwischen bei **Fassung 2.18** (live seit 19. Oktober 2026):
 DeepSeek, eine Uhr-Komplikation nach Wahl, Widgets, die eine abgelaufene
 Anmeldung selbst erneuern, eine Hochrechnung unter jedem Fenster und ein Knopf
 zum Aktualisieren im Widget.

@@ -18,8 +18,8 @@ their subagents, token shares and context windows.
 
 English by default, German selectable in Settings → Display. Requires macOS 14.
 
-This page describes **version 7.6**, live on the Mac App Store since 16
-October 2026; **version 7.7** is in review at Apple. Versions 6.9, 7.0 and 7.1
+This page describes **version 7.7**, live on the Mac App Store since 20
+October 2026. Versions 6.9, 7.0 and 7.1
 were withdrawn before release and never came out on their own. The website
 [aicockpit.info](https://aicockpit.info) is the main source: current versions
 and the Windows download are there first.
@@ -28,6 +28,8 @@ and the Windows download are there first.
 of the price sits a voluntary tip — Espresso, Cappuccino or Dinner — as an
 in-app purchase under Settings → About; it does not unlock anything and
 changes nothing about the app. It is live on the Mac and on iPhone.
+
+**New in 7.7 and 2.18:** one sessions card for Claude Code and Codex, on the Mac and on Windows. It sorts sessions by what needs you: waiting ones first, then running, then idle. The header shows processor load and memory, and the key figure bar can be arranged. Claude figures can come straight from Claude Code's status line (optional), so the card stays current when Anthropic is slow. “Provider temporarily overloaded” now reads as an overload, apart from the quota. OpenAI costs load in sections of 31 days; days that cannot be read are named, never counted as zero. A Diagnostics page shows each provider's status and the last 50 requests. The iPhone version has the OpenAI fix and the Diagnostics page; it has no sessions card, because sessions are files on the computer.
 
 **New in 7.6:** one outage bar instead of three copies, with the severity in
 plain words and Copilot included; a two-level card header, so nothing gets cut
@@ -94,8 +96,7 @@ and a «reset everything» in the settings round out the picture.
 
 There is also **[AI Cockpit for iPhone](https://apps.apple.com/app/apple-store/id6803496344?pt=129315066&ct=github-readme&mt=8)** — a free iPhone & iPad
 edition with an Apple Watch companion, on the App Store since August 2026,
-now at **version 2.17** (live since 13 October 2026; 2.18 is in review at
-Apple): DeepSeek, a watch
+now at **version 2.18** (live since 19 October 2026): DeepSeek, a watch
 complication you set up, widgets that renew an expired sign-in themselves, a
 forecast under every window and a refresh button in the widget. It shares this app's
 source (closed, like this one) and fetches its cards directly on the device.
