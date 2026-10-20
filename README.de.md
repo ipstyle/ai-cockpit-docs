@@ -1,3 +1,5 @@
+> **Dieses Repository ist archiviert (Oktober 2026).** Aktuelle Fassungen, Downloads, FAQ und Neuigkeiten stehen auf **https://aicockpit.info/de/** — Mac App Store, App Store (iPhone, iPad, Apple Watch) und Windows.
+
 # AI-Cockpit — Dokumentation
 
 *[English version → README.md](README.md)*
