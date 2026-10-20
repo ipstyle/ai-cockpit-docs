@@ -14,7 +14,7 @@ Eine macOS-Menüleisten-App, die alle KI-Budgets an einem Ort zeigt: Auslastung
 des Claude-Abos, ChatGPT/Codex-Kontingente, OpenAI-API-Kosten,
 Anthropic-API-Kosten, Kimi-Guthaben, OpenRouter-Guthaben, Grok-Guthaben (xAI),
 GitHub-Copilot-Nutzung und dein DeepSeek-Kontostand: neun Dienste,
-dazu die gerade laufenden Claude-Code-Sitzungen
+dazu die Sitzungen von Claude Code und Codex
 auf deinem Mac, mit Subagenten, Token-Anteilen und Kontextfenstern.
 
 Standard Englisch, Deutsch wählbar unter Einstellungen → Anzeige.
@@ -192,7 +192,7 @@ Gespeichertes) und dem Prüfprotokoll:
 - **DeepSeek** (ab 7.2) — Kontostand je Währung, aufgeladen und geschenkt; ein
   gewöhnlicher API-Schlüssel von platform.deepseek.com genügt. DeepSeek bietet
   keinen Endpunkt für den Verbrauch, und die Karte sagt das.
-- **Aktive Claude-Code-Sitzungen** — Zustand, Modell, Aufwand, verrechnete
+- **Sitzungskarte für Claude Code und Codex** — braucht dich, läuft noch, ruht; Modell, Aufwand, verrechnete
   Token, Anteil am laufenden 5-Stunden-Fenster, Füllstand des Kontextfensters,
   Subagenten.
 - **Hinweise** — beim Überschreiten von Schwellen, bei absehbarem Volllaufen,

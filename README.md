@@ -13,7 +13,7 @@
 A macOS menu bar app that keeps every AI budget you have in one place: Claude
 subscription usage, ChatGPT/Codex quotas, OpenAI API costs, Anthropic API
 costs, Kimi credit, OpenRouter credits, Grok (xAI) balance, GitHub Copilot
-usage and your DeepSeek balance: nine services, plus the Claude Code sessions currently running on your Mac, with
+usage and your DeepSeek balance: nine services, plus the Claude Code and Codex sessions on your Mac, with
 their subagents, token shares and context windows.
 
 English by default, German selectable in Settings → Display. Requires macOS 14.
@@ -179,7 +179,7 @@ security review record:
 - **DeepSeek** (from 7.2) — balance per currency, topped up and granted; an
   ordinary API key from platform.deepseek.com is enough. DeepSeek offers no
   usage endpoint, and the card says so.
-- **Active Claude Code sessions** — state, model, effort, billed tokens, share
+- **Sessions card for Claude Code and Codex** — needs you, still running, idle; model, effort, billed tokens, share
   of the current 5-hour window, context window fill level, subagents.
 - **Notifications** — on threshold crossings, on forecasted exhaustion, when a
   session is waiting for you, and before a context window fills up.
